@@ -122,8 +122,9 @@
   .corner-logo {
     width: 100px;
     height: auto;
-    align-self: flex-end; /* flex konténerben jobbra */
-    margin: 15px 0;
+    top: 100px;
+    right: 15px;
+    margin: 0;
   }
 
   .post-image {

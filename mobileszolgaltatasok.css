@@ -110,5 +110,7 @@
 @media (max-width: 480px) {
   .corner-logo {
     width: 100px;
+    top: 100px;
+    right: 15px;
   }
 }
