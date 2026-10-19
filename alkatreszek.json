@@ -1,0 +1,2978 @@
+[
+  {
+    "ID": 19,
+    "Régi cikkszám": "RD17649",
+    "Új cikkszám": "10K91",
+    "Megnevezés (magyar)": "Csavar",
+    "Megnevezés (angol)": "Screw ",
+    "Orsó típus": "Shimano Screw RD17649, suitable for Ultegra 5500 XSD, 14000 XSD, Ultegra 35 XSD Competition, Ultegra Ci4+ 5500 XSC, 14000 XSC, Aerlex 10000 XSB, Speedmaster 14000 XSC"
+  },
+  {
+    "ID": 20,
+    "Régi cikkszám": "RD6293",
+    "Új cikkszám": "107RD",
+    "Megnevezés (magyar)": "zsinórvezető görgőpersely",
+    "Megnevezés (angol)": "Line Roller Bushing",
+    "Orsó típus": "Vanquish 3000F, 4000F, Sedona 4000 FE, C5000 FE, Stradic 1000 FB, 2500 FB, 4000 FB, Stradic 2500 FC, 3000 SFC, 4000 FC, C5000 FC, Twin Power Ci4 2500 FA, 4000 FA, Twin Power 1000 FA, 2500 FA, Twin Power 1000 FB, 2500 FB, 4000 FB, Biomaster SWA 4000 XG Model 2012, Sedona 750 FB, 1500 FB, Symerte 750 FI, Aspire 1000 FA, 2500 FA, 4000 FA"
+  },
+  {
+    "ID": 21,
+    "Régi cikkszám": "RD5001",
+    "Új cikkszám": "107WS",
+    "Megnevezés (magyar)": "zsinórvezető görgő alátét",
+    "Megnevezés (angol)": "Line Roller Washer",
+    "Orsó típus": "Aerlex 7000 XTA Spod, Aerlex 8000 XTA, 7000 XTA, Aerlex 6000 XSA, 7000 XSA, 8000 XSA, Aerlex 8000 PG, Aerlex 10000 XTB Spod, Aerlex 10000 XSB, Aerlex 10000 XTB, Beastmaster 7000 XTA, Beastmaster 7000 XSA, Baitrunner 12000 OC, Speedcast 14000 XTB, Speedcast 14000 XSB, Ultegra XTD Spod, Ultegra 10000 XSB, 14000 XSB, Ultegra 14000 XTB, Beastmaster 10000 XB, Medium Baitrunner XT-B LC, Big Baitrunner XT-B LC, Speedmaster 14000 XTC, Speedmaster 14000 XSC, Navi 7000 XSB, 8000 XSB, Navi 8000 XTB, Ultegra 14000 XSE, Beastmaster 14000 XC"
+  },
+  {
+    "ID": 22,
+    "Régi cikkszám": "RD1523",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "DRIVE GEAR",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 23,
+    "Régi cikkszám": "RD17618",
+    "Új cikkszám": "10CZU",
+    "Megnevezés (magyar)": "zsinórvezető görgő hüvely",
+    "Megnevezés (angol)": "Line Roller Collar",
+    "Orsó típus": "Ultegra 5500 XTD, 14000 XTD, Ultegra 5500 XSD, 14000 XSD, Ultegra 35 XSD Competition"
+  },
+  {
+    "ID": 24,
+    "Régi cikkszám": "RD17619",
+    "Új cikkszám": "10PJW",
+    "Megnevezés (magyar)": "zsinórvezető görgő alátét",
+    "Megnevezés (angol)": "Line Roller Washer",
+    "Orsó típus": "Ultegra 5500 XSD, 5500 XTD, 14000 XSD, 14000 XTD, Ultegra 35 XSD Competition"
+  },
+  {
+    "ID": 25,
+    "Régi cikkszám": "RD10793",
+    "Új cikkszám": "10PK9",
+    "Megnevezés (magyar)": "felkapókar hüvely",
+    "Megnevezés (angol)": "Bail Arm Collar",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 26,
+    "Régi cikkszám": "RD15361",
+    "Új cikkszám": "10G8M",
+    "Megnevezés (magyar)": "zsinórvezető görgő tartófedél",
+    "Megnevezés (angol)": "Line Roller Support Cover",
+    "Orsó típus": "Baitrunner X-Aero 2500 FA, 4000 FA, Aero Ci4+ 4000 FA, 4000 HGFA, Aero Spinning 4000 FA, Aero Match 4000 FA, Aero Feeder 4000 FA, Aero 2500 FA, 2500 HGFA, Technium 1000 FD, 2500 FD, 3000 SFD, 4000 FD, C5000 FD, Symetre 500 FL, 2500 FL, 3000 FL, 4000 FL, Nasci 500 FB, Sahara 1000 FE, 2500 FE, 3000 FE, 4000 FE, Saros 1000 FA, 2500 FA, 3000 FA, 4000 FA"
+  },
+  {
+    "ID": 27,
+    "Régi cikkszám": "RD19994",
+    "Új cikkszám": "10TBA",
+    "Megnevezés (magyar)": "alátét",
+    "Megnevezés (angol)": "Washer",
+    "Orsó típus": "Stradic FL all models, Vanford F all models except Vanford 500F, Ultegra FC all models, Sustain FJ all models, Cardiff XR C2000S, Cardiff XR C2000SHG, Stradic C2000S FM, C2000S HGFM, 3000 MHGFM, 4000 FM, 4000 MHGFM, 4000 XGFM, C5000 XGFM"
+  },
+  {
+    "ID": 28,
+    "Régi cikkszám": "RD5001",
+    "Új cikkszám": "107WS",
+    "Megnevezés (magyar)": "zsinórvezető görgő alátét",
+    "Megnevezés (angol)": "Line Roller Washer",
+    "Orsó típus": "Aerlex 7000 XTA Spod, Aerlex 8000 XTA, 7000 XTA, Aerlex 6000 XSA, 7000 XSA, 8000 XSA, Aerlex 8000 PG, Aerlex 10000 XTB Spod, Aerlex 10000 XSB, Aerlex 10000 XTB, Beastmaster 7000 XTA, Beastmaster 7000 XSA, Baitrunner 12000 OC, Speedcast 14000 XTB, Speedcast 14000 XSB, Ultegra XTD Spod, Ultegra 10000 XSB, 14000 XSB, Ultegra 14000 XTB, Beastmaster 10000 XB, Medium Baitrunner XT-B LC, Big Baitrunner XT-B LC, Speedmaster 14000 XTC, Speedmaster 14000 XSC, Navi 7000 XSB, 8000 XSB, Navi 8000 XTB, Ultegra 14000 XSE, Beastmaster 14000 XC"
+  },
+  {
+    "ID": 29,
+    "Régi cikkszám": "RD17649",
+    "Új cikkszám": "10K91",
+    "Megnevezés (magyar)": "csavar",
+    "Megnevezés (angol)": "Screw",
+    "Orsó típus": "Ultegra 5500 XSD, 14000 XSD, Ultegra 35 XSD Competition, Ultegra Ci4+ 5500 XSC, 14000 XSC, Aerlex 10000 XSB, Speedmaster 14000 XSC"
+  },
+  {
+    "ID": 30,
+    "Régi cikkszám": "RD5642",
+    "Új cikkszám": "10JP2",
+    "Megnevezés (magyar)": "zsinórvezető görgő",
+    "Megnevezés (angol)": "Line Roller",
+    "Orsó típus": "Baitrunner DL 6000 RA, 10000 RA, Baitrunner DL 6000 RB, 10000 RB, Nexave 6000 FB, Nexave 6000 FC, Nexave 6000 FE, 8000 FE, Alivio 6000 FA, 10000 FA, Baitrunner ST 6000 RA, 10000 RA, Baitrunner ST 6000 RB, 10000 RB, Baitrunner 6000 OC, 8000 OC, 12000 OC, Titanos XT 10000"
+  },
+  {
+    "ID": 31,
+    "Régi cikkszám": "RD7463",
+    "Új cikkszám": "107WY",
+    "Megnevezés (magyar)": "Zsinórvezető görgő alátét",
+    "Megnevezés (angol)": "Line Roller Washer",
+    "Orsó típus": "Rarenium Ci4 2500, 3000S, 4000 FA, Stradic 1500, 2500, 300S, 4000S GTM-RC, Biomaster 1500, 2500, 3000S, 4000 RA, Super 2500, 4000 GT-RD"
+  },
+  {
+    "ID": 32,
+    "Régi cikkszám": "RD15262",
+    "Új cikkszám": "10G8L",
+    "Megnevezés (magyar)": "Zsinórvezető görgő tartófedél",
+    "Megnevezés (angol)": "Line Roller Support Cover",
+    "Orsó típus": "Baitrunner X-Aero 6000 RA, 8000 RA, 10000 RA, Big Baitrunner Cj4+ XTR-A LC, Ultegra 4500 XSC, 5500 XSC, 10000 XSC, 14000 XSC, 5500 XTC, 14000 XTC, Ultegra Ci4+ 5500 XSB, 14000 XSB, 5500 XTB, 14000 XTB, Ultegra 5500 XTD, 14000 XTD, 5500 XSD, 14000 XSD, Ultegra 35 XSD Competition, Ultegra Ci4+ 5500 XSC, 5500 XTC, 14000 XSC, 14000 XTC, Medium Baitrunner Ci4+ XT-B LC, Big Baitrunner Ci4+ XT-B LC"
+  },
+  {
+    "ID": 33,
+    "Régi cikkszám": "RD6684",
+    "Új cikkszám": "10KFD",
+    "Megnevezés (magyar)": "Zsinórvezető görgő távtartó",
+    "Megnevezés (angol)": "Line Roller Spacer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 34,
+    "Régi cikkszám": "RD10318",
+    "Új cikkszám": "10KYZ",
+    "Megnevezés (magyar)": "Zsinórvezető görgő tartó",
+    "Megnevezés (angol)": " Line Roller Support",
+    "Orsó típus": "Baitrunner 400 D, Stradic Ci4 1000F, 1000 FML 4000F, Stradic 1000FB, 4000 FB, S ymetre 500 FJ, Aspire 100FA, 4000 FA, Stradic Mg 1000 FB, Rarenium Ci4 1000 FA, 4000 FA"
+  },
+  {
+    "ID": 35,
+    "Régi cikkszám": "PK0413",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "L/R Set",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 36,
+    "Régi cikkszám": "RD17195",
+    "Új cikkszám": "10KLZ",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Straxic 2500 HGFK, C3000 HGFK"
+  },
+  {
+    "ID": 37,
+    "Régi cikkszám": "RD19787",
+    "Új cikkszám": "10RSF",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Stradic 2500 FL, 2500 HGFL, C3000 FL, C3000 HGFL, C3000 XGFL"
+  },
+  {
+    "ID": 38,
+    "Régi cikkszám": "RD15308",
+    "Új cikkszám": "107Y9",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Big Baitrunner Ci4+ XTR-A LC"
+  },
+  {
+    "ID": 39,
+    "Régi cikkszám": "RD17648",
+    "Új cikkszám": "10TP8",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Ultegra 14000 XSD & 3500 XSD Competition"
+  },
+  {
+    "ID": 40,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "?"
+  },
+  {
+    "ID": 41,
+    "Régi cikkszám": "RD17990",
+    "Új cikkszám": "101GW",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Ultegra 5500 XTD"
+  },
+  {
+    "ID": 42,
+    "Régi cikkszám": "RD18018",
+    "Új cikkszám": "101ZD",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Sahara 2500 FI, 2500 HGSFI, C3000 FI, C3000 HGFI"
+  },
+  {
+    "ID": 43,
+    "Régi cikkszám": "RD13819",
+    "Új cikkszám": "1075Q",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Biomaster 8000 XSB"
+  },
+  {
+    "ID": 44,
+    "Régi cikkszám": "RD15156",
+    "Új cikkszám": "107Y6",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Ultegra 10000 XSC and 14000 XSC, Speedmaster 14000 XSC"
+  },
+  {
+    "ID": 45,
+    "Régi cikkszám": "RD17990",
+    "Új cikkszám": "101GW",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "ULT 5500 XTD"
+  },
+  {
+    "ID": 46,
+    "Régi cikkszám": "RD14391",
+    "Új cikkszám": "1075R",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Biomaster 8000 XTB"
+  },
+  {
+    "ID": 47,
+    "Régi cikkszám": "RD15190",
+    "Új cikkszám": "107Y7",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ULT XTC"
+  },
+  {
+    "ID": 48,
+    "Régi cikkszám": "RD18008",
+    "Új cikkszám": "101GX",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "ULT XSD 5500"
+  },
+  {
+    "ID": 49,
+    "Régi cikkszám": "RD18500",
+    "Új cikkszám": "101BC",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 50,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 51,
+    "Régi cikkszám": "RD15160",
+    "Új cikkszám": "106YX",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Ultegra 10000 XSC and 14000 XSC"
+  },
+  {
+    "ID": 52,
+    "Régi cikkszám": "RD13206",
+    "Új cikkszám": "107MD",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Baitrunner 6000D, DEU, 8000D, DEU"
+  },
+  {
+    "ID": 53,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "106UL",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "MBLC XTA"
+  },
+  {
+    "ID": 54,
+    "Régi cikkszám": "RD8471",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero Technium XT, XTG"
+  },
+  {
+    "ID": 55,
+    "Régi cikkszám": "RD6813",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "BBLC"
+  },
+  {
+    "ID": 56,
+    "Régi cikkszám": "RD18430",
+    "Új cikkszám": "10S0Z",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Big Baitrunner XT-B LC"
+  },
+  {
+    "ID": 57,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ULT XTE"
+  },
+  {
+    "ID": 58,
+    "Régi cikkszám": "RD15670",
+    "Új cikkszám": "106YV",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Ultegra Ci4+ 5500 XSB, Ultegra 5500 XTC"
+  },
+  {
+    "ID": 59,
+    "Régi cikkszám": "RD15160",
+    "Új cikkszám": "106YX",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Ultegra 10000 XSC, 14000 XSC"
+  },
+  {
+    "ID": 60,
+    "Régi cikkszám": "RD19296",
+    "Új cikkszám": "1000B",
+    "Megnevezés (magyar)": " Felkapókar-egység",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Speedmaster 14000 XSC"
+  },
+  {
+    "ID": 61,
+    "Régi cikkszám": "RD5908",
+    "Új cikkszám": "1081B",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 62,
+    "Régi cikkszám": "RD5680",
+    "Új cikkszám": "105KR",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Shimano Spacer",
+    "Orsó típus": "Calcutta 700 BSV, Aerlex 10000 XSB, Aerlex 10000 XTB, Aerlex 10000 XTB Spod, Aero Technium 10000 XSB, Aero Technium 12000 XTB, Aero Technium 12000 XTA, Super Ultegra 6000 XSA, 10000 XSA, Ultegra 14000 XTB, Ultegra 10000 XSB, 14000 XSB, Ultegra Ci4 10000 XSA, 14000 XSA, Ultegra Ci4 10000 XTA, Ultegra 10000 XSA, 12000 XSA, Ultegra 12000 XTA, Aerlex 7000 XSA, 8000 XSA, Aerlex 7000 XTA Spod, Aerlex 8000 XTA, Aerlex 8000 PG, Beastmaster 7000 XSA, Beastmaster 7000 XTA, Speedcast 8000 XSA, Speedcast 8000 XTA, Biomaster 8000 XSB, Biomaster 8000 XTB, Navi 7000 XSB, 8000 XSB, Navi 7000 XTB, 8000 XTB, Power Aero 6000 XSA, 10000 XSA, Power Aero 10000 XTA, Aero Technium XT 10000, Power Aero XT 6000, 10000, Ultegra XT 10000, 12000, 14000, Power Aero 10000, 12000, 14000, Biomaster XT 10000, 12000, 14000"
+  },
+  {
+    "ID": 63,
+    "Régi cikkszám": "RD5882",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Safety Guard Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 64,
+    "Régi cikkszám": "RD15644",
+    "Új cikkszám": "10763",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "5500-as orsókhoz"
+  },
+  {
+    "ID": 65,
+    "Régi cikkszám": "RD11719",
+    "Új cikkszám": "10HE8",
+    "Megnevezés (magyar)": "Zsinórvédő alátét",
+    "Megnevezés (angol)": "Line Safety Guard Washer",
+    "Orsó típus": "MBLC XTA, ULT XTB, XTA, Ci4 XSA, XSB, XTB, XTA, 5500"
+  },
+  {
+    "ID": 66,
+    "Régi cikkszám": "RD3232",
+    "Új cikkszám": "107VW",
+    "Megnevezés (magyar)": "Orsórotor rögzítőanya",
+    "Megnevezés (angol)": "Rotor Nut",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 67,
+    "Régi cikkszám": "RD3340",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 68,
+    "Régi cikkszám": "RD5882",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "BBLC, BBLC XTA"
+  },
+  {
+    "ID": 69,
+    "Régi cikkszám": "RD3343",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 70,
+    "Régi cikkszám": "RD3342",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 71,
+    "Régi cikkszám": "RD14578",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Click",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 72,
+    "Régi cikkszám": "RD3503",
+    "Új cikkszám": "10BXK",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Spool Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 73,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10PH8",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Spool Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 74,
+    "Régi cikkszám": "RD10304",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 75,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "1038F",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Click",
+    "Orsó típus": "ULT D 14000 P. A., Baitr 4000 OC, 12000 OC"
+  },
+  {
+    "ID": 76,
+    "Régi cikkszám": "RD14402",
+    "Új cikkszám": "10H25",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Tribal 5500 XTA, Ult: 5500 XSB, XTB, Ci4 XSA"
+  },
+  {
+    "ID": 77,
+    "Régi cikkszám": "RD11646",
+    "Új cikkszám": "107PS",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "4000-es orsók"
+  },
+  {
+    "ID": 78,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10GH5",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Spool Suppor B",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 79,
+    "Régi cikkszám": "RD17928",
+    "Új cikkszám": "101Y5",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Spool Suppor A",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 80,
+    "Régi cikkszám": "RD14829",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Click Spring",
+    "Orsó típus": "ULT 3000 FB"
+  },
+  {
+    "ID": 81,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10A6G",
+    "Megnevezés (magyar)": "Hosszú csavar",
+    "Megnevezés (angol)": "Screw",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 82,
+    "Régi cikkszám": "0,3x2x/o",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 83,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10Q03",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Spool Support A",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 84,
+    "Régi cikkszám": "RD15303",
+    "Új cikkszám": "10389",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 85,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10BXN",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Spool Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 86,
+    "Régi cikkszám": "RD14564",
+    "Új cikkszám": "10JM3",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 87,
+    "Régi cikkszám": "RD21555",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ULT 4000-5000 FC"
+  },
+  {
+    "ID": 88,
+    "Régi cikkszám": "RD15304",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Click Spring",
+    "Orsó típus": "ULT 5500 XSC-XTC, MBLCCi4XTRA 8x ULTCi45500 XSB-XTB"
+  },
+  {
+    "ID": 89,
+    "Régi cikkszám": "RD17986",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 90,
+    "Régi cikkszám": "0.3x2x10",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 91,
+    "Régi cikkszám": "RD8916",
+    "Új cikkszám": "10CH0",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Click Spring",
+    "Orsó típus": "XSD XTD XSE XTE"
+  },
+  {
+    "ID": 92,
+    "Régi cikkszám": "RD7920",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Click Pin",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 93,
+    "Régi cikkszám": "RD8759",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 94,
+    "Régi cikkszám": "RD8758",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Click Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 95,
+    "Régi cikkszám": "RD15161",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 96,
+    "Régi cikkszám": "BNT1419",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 97,
+    "Régi cikkszám": "PK0062",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Click Set",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 98,
+    "Régi cikkszám": "RD8916",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Click Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 99,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10PFH",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Roller Bushing",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 100,
+    "Régi cikkszám": "BNT5201",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 101,
+    "Régi cikkszám": "TGT0797",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pressure Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 102,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "105N8",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector Nut A",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 103,
+    "Régi cikkszám": "RD11649",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Click Pin",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 104,
+    "Régi cikkszám": "RD19339",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 105,
+    "Régi cikkszám": "RD19338",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 106,
+    "Régi cikkszám": "RD5891",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Trip Lever Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 107,
+    "Régi cikkszám": "RD13092",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Wrench (Accessory)",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 108,
+    "Régi cikkszám": "RD14250",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Linee Roller Oil Cap",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 109,
+    "Régi cikkszám": "RD8787",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 110,
+    "Régi cikkszám": "RD14096",
+    "Új cikkszám": "10N2H",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 111,
+    "Régi cikkszám": "RD8916",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Rugó",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 112,
+    "Régi cikkszám": "RD17609",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Key Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 113,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Aluminium féklamella szett",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "14000"
+  },
+  {
+    "ID": 114,
+    "Régi cikkszám": "RD12973",
+    "Új cikkszám": "10QBR",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Key Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 115,
+    "Régi cikkszám": "RD6686",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 116,
+    "Régi cikkszám": "RD14250",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 117,
+    "Régi cikkszám": "RD11927",
+    "Új cikkszám": "10BB8",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Key Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 118,
+    "Régi cikkszám": "RD4718",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Lever Spring Guide (A)",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 119,
+    "Régi cikkszám": "RD10752",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 120,
+    "Régi cikkszám": "RD10793",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Arm Collar",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 121,
+    "Régi cikkszám": "RD11926",
+    "Új cikkszám": "102XF",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 122,
+    "Régi cikkszám": "RD5701",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Lever Spring Guide (B)",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 123,
+    "Régi cikkszám": "RD13725",
+    "Új cikkszám": "10PLN",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 124,
+    "Régi cikkszám": "RD3682",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 125,
+    "Régi cikkszám": "RD5996",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Rugó dobba",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 126,
+    "Régi cikkszám": "RD9931",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Click Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 127,
+    "Régi cikkszám": "RD9841",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 128,
+    "Régi cikkszám": "RD10021",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 129,
+    "Régi cikkszám": "RD11927",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Key Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 130,
+    "Régi cikkszám": "RD5704",
+    "Új cikkszám": "1072Y",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Trip Lever Spacer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 131,
+    "Régi cikkszám": "RD14576",
+    "Új cikkszám": "10ATV",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Clip",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 132,
+    "Régi cikkszám": "RD15163",
+    "Új cikkszám": "10764",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 133,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "105LT",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Spring Guide",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 134,
+    "Régi cikkszám": "RD14577",
+    "Új cikkszám": "10B00",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Clip Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 135,
+    "Régi cikkszám": "RD17687",
+    "Új cikkszám": "10TPJ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": "Stradic Ci4 FB 2500-3000"
+  },
+  {
+    "ID": 136,
+    "Régi cikkszám": "RD16077",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector",
+    "Orsó típus": "5500 XTB Ci4"
+  },
+  {
+    "ID": 137,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10TPE",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 138,
+    "Régi cikkszám": "RD22372",
+    "Új cikkszám": "10SHQ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Spring Cover",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 139,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10QY3",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 140,
+    "Régi cikkszám": "RD12752",
+    "Új cikkszám": "10CSV",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ULT XTB XTACi4 BBLC XT-ALC"
+  },
+  {
+    "ID": 141,
+    "Régi cikkszám": "RD7583",
+    "Új cikkszám": "105NC",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "E Clip",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 142,
+    "Régi cikkszám": "RD9444",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Slider Retainer Screw",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 143,
+    "Régi cikkszám": "RD17626",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": "VVLC XTB, ULT XTD"
+  },
+  {
+    "ID": 144,
+    "Régi cikkszám": "RD17984",
+    "Új cikkszám": "10MZW",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Washers Retainer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 145,
+    "Régi cikkszám": "RD11104",
+    "Új cikkszám": "10B3Q",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Seal Plate A",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 146,
+    "Régi cikkszám": "RD10079",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 147,
+    "Régi cikkszám": "RD7583",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "E-Lock",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 148,
+    "Régi cikkszám": "RD13180",
+    "Új cikkszám": "10B3R",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Seal Plate A",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 149,
+    "Régi cikkszám": "RD16462",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 150,
+    "Régi cikkszám": "RD17690",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Friction Ring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 151,
+    "Régi cikkszám": "RD15191",
+    "Új cikkszám": "1087Q",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ATMgS XTB, ATXTC XSC, ULTCii4 XTB XSB"
+  },
+  {
+    "ID": 152,
+    "Régi cikkszám": "RD15366",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero FA 4000"
+  },
+  {
+    "ID": 153,
+    "Régi cikkszám": "RD14756",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 154,
+    "Régi cikkszám": "RD17626",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": "BBLC XTB, ULT XTD"
+  },
+  {
+    "ID": 155,
+    "Régi cikkszám": "RD15146",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 156,
+    "Régi cikkszám": "RD18005",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 157,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 158,
+    "Régi cikkszám": "RD17645",
+    "Új cikkszám": "1029J",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": "ULT 14000 XS D"
+  },
+  {
+    "ID": 159,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10TPD",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Spring Cover",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 160,
+    "Régi cikkszám": "RD18001",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector",
+    "Orsó típus": "ULT 5500 XTD"
+  },
+  {
+    "ID": 161,
+    "Régi cikkszám": "RD6008",
+    "Új cikkszám": "10PN2",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 162,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "101FQ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 163,
+    "Régi cikkszám": "RD15193",
+    "Új cikkszám": "10MK3",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 164,
+    "Régi cikkszám": "RD17344",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 165,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10N1G",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Handle Screw Cap",
+    "Orsó típus": "BBLC, XTRA"
+  },
+  {
+    "ID": 166,
+    "Régi cikkszám": "RD15946",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 167,
+    "Régi cikkszám": "RD16036",
+    "Új cikkszám": "102BK",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 168,
+    "Régi cikkszám": "RD18425",
+    "Új cikkszám": "10DKN",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": "BBLC XTD ULT"
+  },
+  {
+    "ID": 169,
+    "Régi cikkszám": "RD22389",
+    "Új cikkszám": "1008W",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector",
+    "Orsó típus": "ULT XTE  XTESPOD, SpeedmesterXTD, ULT XR14000 XTD"
+  },
+  {
+    "ID": 170,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "102BK",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 171,
+    "Régi cikkszám": "RD12723",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Spring Cover",
+    "Orsó típus": "ULT Ci4 XSA, XSA, XSB"
+  },
+  {
+    "ID": 172,
+    "Régi cikkszám": "RD14391",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 173,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10SUJ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drag Knob",
+    "Orsó típus": "ULT XTE"
+  },
+  {
+    "ID": 174,
+    "Régi cikkszám": "RD14752",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": "AERLEXXTA"
+  },
+  {
+    "ID": 175,
+    "Régi cikkszám": "RD14751",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Spring Cover",
+    "Orsó típus": "AERLEXXTA"
+  },
+  {
+    "ID": 176,
+    "Régi cikkszám": "RD18797",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 177,
+    "Régi cikkszám": "RD14572",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector",
+    "Orsó típus": "AERLEXXSA, XTA, PG"
+  },
+  {
+    "ID": 178,
+    "Régi cikkszám": "RD11691",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "PAXSA, XTA, ATXCS, XTC, MgSXTB"
+  },
+  {
+    "ID": 179,
+    "Régi cikkszám": "RD7875",
+    "Új cikkszám": "109LV",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oil Cap",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 180,
+    "Régi cikkszám": "RD15264",
+    "Új cikkszám": "1094G",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 181,
+    "Régi cikkszám": "RD8776",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oil Cap",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 182,
+    "Régi cikkszám": "RD14974",
+    "Új cikkszám": "1081Q",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ATMgS XTB, XSB, XSC, XTC, ATXTC, XSC"
+  },
+  {
+    "ID": 183,
+    "Régi cikkszám": "RD15191",
+    "Új cikkszám": "1087Q",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Spring Cover",
+    "Orsó típus": "ATMgSXTB,, ATXTGXSC, BBLCXTRA, ULT XTC, XTB-XSD, SPEEDCAST XTB, SPEEDMXSC"
+  },
+  {
+    "ID": 184,
+    "Régi cikkszám": "RD15477",
+    "Új cikkszám": "10BUT",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS XSC, XTC, XTB"
+  },
+  {
+    "ID": 185,
+    "Régi cikkszám": "RD11975",
+    "Új cikkszám": "1097Y",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS 14000 XSC XTC, AT MgS10000XSB 12000XTB, AT MgS 10000 XSA, AT 6000 XSC 1000XSC 12000XTC"
+  },
+  {
+    "ID": 186,
+    "Régi cikkszám": "RD14689",
+    "Új cikkszám": "10H9M",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": "Minden medium Baitrunner"
+  },
+  {
+    "ID": 187,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "105K5",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS XSA XSB"
+  },
+  {
+    "ID": 188,
+    "Régi cikkszám": "RD18771",
+    "Új cikkszám": "10S9M",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Stella 2511 HG FJ, 2511S HG FJ, C300M HG FJ, Stradic 2500 HG FL, C3000 HG FL, Vanquish 2500S HG FB C2500S HG FB, Twin Power 2500S HG FD, Vanford 2500 HG F, 2500S HG F, C3000 HG F"
+  },
+  {
+    "ID": 189,
+    "Régi cikkszám": "RD11983",
+    "Új cikkszám": "10PU1",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MGS, XSO, XTO, XSB, XTB; AT XSC, XSB, XTB"
+  },
+  {
+    "ID": 190,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "13MMM",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": "16 SUPER AERO Kisu Special"
+  },
+  {
+    "ID": 191,
+    "Régi cikkszám": "RD19320",
+    "Új cikkszám": "10S81",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear B Small",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 192,
+    "Régi cikkszám": "RD18572",
+    "Új cikkszám": "10TQC",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Spool Support A",
+    "Orsó típus": "AT MgS XSC XTC, PA 14000 XSB XTB "
+  },
+  {
+    "ID": 193,
+    "Régi cikkszám": "RD15655",
+    "Új cikkszám": "10CNB",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear B",
+    "Orsó típus": "ULT 5500"
+  },
+  {
+    "ID": 194,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10H4A",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear C",
+    "Orsó típus": "ULT 5500 C D Ci4B"
+  },
+  {
+    "ID": 195,
+    "Régi cikkszám": "RD13664",
+    "Új cikkszám": "10P4T",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "MgS XTB XSC "
+  },
+  {
+    "ID": 196,
+    "Régi cikkszám": "RD17906",
+    "Új cikkszám": "102UB",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Shaft",
+    "Orsó típus": "Aerlex, Beastmaster 10000"
+  },
+  {
+    "ID": 197,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10HCH",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": "AT MgS XTC, XSC, XSB, XTB, AT XSC, XTC, XSB, XTB"
+  },
+  {
+    "ID": 198,
+    "Régi cikkszám": "RD13805",
+    "Új cikkszám": "106VG",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Pawl",
+    "Orsó típus": "Aerlex, Navi 7000-8000"
+  },
+  {
+    "ID": 199,
+    "Régi cikkszám": "RD17640",
+    "Új cikkszám": "10822",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Shaft",
+    "Orsó típus": "ULT 1400 XSD, XTD, Ci4XSC- XTC"
+  },
+  {
+    "ID": 200,
+    "Régi cikkszám": "PK0068",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 201,
+    "Régi cikkszám": "RD17658",
+    "Új cikkszám": "10DMR",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Speedcast 14000 XSB-XTB (AT MgS XSA, AT XTB) "
+  },
+  {
+    "ID": 202,
+    "Régi cikkszám": "RD8534",
+    "Új cikkszám": "109LV",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oil Cap",
+    "Orsó típus": "MgS XSB"
+  },
+  {
+    "ID": 203,
+    "Régi cikkszám": "RD5680",
+    "Új cikkszám": "105KR",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Safety Guard Spacer B",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 204,
+    "Régi cikkszám": "RD14701",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscilllating Slider",
+    "Orsó típus": "Minden MBLC"
+  },
+  {
+    "ID": 205,
+    "Régi cikkszám": "RD13220",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscilllating Slider",
+    "Orsó típus": "Baitrunner 8000"
+  },
+  {
+    "ID": 206,
+    "Régi cikkszám": "RD11992",
+    "Új cikkszám": "10CT7",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero Technikum MgS 10000 XSA, Aero Technikum MgS 10000 XSB & Aero Technikum MgS 14000 XSC"
+  },
+  {
+    "ID": 207,
+    "Régi cikkszám": "RD9191",
+    "Új cikkszám": "10ML9",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Slider Retainer Screw (A)",
+    "Orsó típus": "14000 ULT"
+  },
+  {
+    "ID": 208,
+    "Régi cikkszám": "PK0160",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Shaft, Bushing, ADJ Washer...",
+    "Orsó típus": "BBLC XTRA"
+  },
+  {
+    "ID": 209,
+    "Régi cikkszám": "RD12778",
+    "Új cikkszám": "10GQ9",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector A",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 210,
+    "Régi cikkszám": "PK060",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Shaft+Pin, Adj washer, OSC Pawl",
+    "Orsó típus": "BBLC XTA"
+  },
+  {
+    "ID": 211,
+    "Régi cikkszám": "PK060",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Shaft+Pin, Adj washer, OSC Pawl",
+    "Orsó típus": "BBLC XTA"
+  },
+  {
+    "ID": 212,
+    "Régi cikkszám": "RD13222",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Gear Bushinng",
+    "Orsó típus": "Baitrunner 8000 D, Spheros Sanahosd, Soconno Sedona"
+  },
+  {
+    "ID": 213,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10MGZ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Roller Clutch Water Proof",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 214,
+    "Régi cikkszám": "RD13220",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": "Baitrunner 8000 D"
+  },
+  {
+    "ID": 215,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10CGX",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rotor Ring",
+    "Orsó típus": "ATMgS XSA, XSB, XTB"
+  },
+  {
+    "ID": 216,
+    "Régi cikkszám": "RD14071",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider Bushing",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 217,
+    "Régi cikkszám": "RD17999",
+    "Új cikkszám": "10LA7",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "5500 ULT"
+  },
+  {
+    "ID": 218,
+    "Régi cikkszám": "RD14116",
+    "Új cikkszám": "10P4U",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Handle Screw Cap",
+    "Orsó típus": "ULT Ci4 + XTB Spheros 8000"
+  },
+  {
+    "ID": 219,
+    "Régi cikkszám": "RD17656",
+    "Új cikkszám": "10DMP",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscllating Pawl",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 220,
+    "Régi cikkszám": "RD3385",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aerlex Biomaster"
+  },
+  {
+    "ID": 221,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "tengely csavar",
+    "Megnevezés (angol)": "Slider",
+    "Orsó típus": "AT XTA"
+  },
+  {
+    "ID": 222,
+    "Régi cikkszám": "RD15373",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": "AEROFA 4000,AR-C Ci44000"
+  },
+  {
+    "ID": 223,
+    "Régi cikkszám": "RD14946",
+    "Új cikkszám": "10KUQ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Roller",
+    "Orsó típus": "XSB MgS"
+  },
+  {
+    "ID": 224,
+    "Régi cikkszám": "RD15653",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": "ULTEGRA 5500"
+  },
+  {
+    "ID": 225,
+    "Régi cikkszám": "RD12241",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 226,
+    "Régi cikkszám": "RD14728",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": "BBLC XTA, XTRA, XTB, XTB Ci4"
+  },
+  {
+    "ID": 227,
+    "Régi cikkszám": "PK0065",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "OSC Pawl Spacer, Slider Bush, Worm Shat, ADJ Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 228,
+    "Régi cikkszám": "RD9975",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider Bushing",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 229,
+    "Régi cikkszám": "RD11986",
+    "Új cikkszám": "10JVA",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS XTC, XSC, XSB, XTB, XSA; AT XSC, XTC"
+  },
+  {
+    "ID": 230,
+    "Régi cikkszám": "PK0480",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinion  Gear, Drive Gear, Idle Gear, SL2 D/G WASHER X2",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 231,
+    "Régi cikkszám": "RD4780",
+    "Új cikkszám": "106QY",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ATMgS XSD, XSC, XTC, XTD, XSB, XTB, XSA; AT XSC, XTC, XSB, XTB"
+  },
+  {
+    "ID": 232,
+    "Régi cikkszám": "RD12721",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Main Shaft",
+    "Orsó típus": "ULT Ci4 XSA, XSA, XTA, XSB, XTB"
+  },
+  {
+    "ID": 233,
+    "Régi cikkszám": "RD12739",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": "ULT Ci4 XSA, XTA, XSB, XTB"
+  },
+  {
+    "ID": 234,
+    "Régi cikkszám": "RD10423",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 235,
+    "Régi cikkszám": "RD11630",
+    "Új cikkszám": "103C8",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 236,
+    "Régi cikkszám": "PK0032",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drive Gear, Pinion Gear, OSC Gear, D/Gear Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 237,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "107RF",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Roller Bushing",
+    "Orsó típus": "AT MgS XSA XSB"
+  },
+  {
+    "ID": 238,
+    "Régi cikkszám": "RD10759",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinion Gear",
+    "Orsó típus": "Super Baitr. XTEA 5000"
+  },
+  {
+    "ID": 239,
+    "Régi cikkszám": "RD21915",
+    "Új cikkszám": "10RAW",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Guide A",
+    "Orsó típus": "AT MgS XTD, XSD"
+  },
+  {
+    "ID": 240,
+    "Régi cikkszám": "PK0002",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinion Gear, Drive Gear, Idle Gear, Drive Gear Washer x2",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 241,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10H9L",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS XSC, XTC, XTB; AT XSC XTC"
+  },
+  {
+    "ID": 242,
+    "Régi cikkszám": "RD15171",
+    "Új cikkszám": "109FQ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 243,
+    "Régi cikkszám": "RD15164",
+    "Új cikkszám": "10BV7",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinio Gear",
+    "Orsó típus": "ULT 14000 XTD, XSD, XTC, XSC, Speedcast XTB, XSB, Beastmaster XCC, Speedmaster XSC XTC"
+  },
+  {
+    "ID": 244,
+    "Régi cikkszám": "RD15267",
+    "Új cikkszám": "10KKC",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AERO TECH. XSC XTC, MgS XTB"
+  },
+  {
+    "ID": 245,
+    "Régi cikkszám": "RD12735",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Tányérkerék",
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": "ULT XTB 14000"
+  },
+  {
+    "ID": 246,
+    "Régi cikkszám": "PK0068",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 247,
+    "Régi cikkszám": "PK0225",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ULT 5500"
+  },
+  {
+    "ID": 248,
+    "Régi cikkszám": "RD11936",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Roller Support Collar",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 249,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10KWF",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Main Shaft",
+    "Orsó típus": "MgS XSA XSB"
+  },
+  {
+    "ID": 250,
+    "Régi cikkszám": "RD12728",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Csigatengely",
+    "Megnevezés (angol)": "Pinion",
+    "Orsó típus": "ULT XTB 14000"
+  },
+  {
+    "ID": 250,
+    "Régi cikkszám": "RD12728",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Csigatengely",
+    "Megnevezés (angol)": "Pinion",
+    "Orsó típus": "ULT XTB 14000"
+  },
+  {
+    "ID": 251,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "1079T",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Roller Plate",
+    "Orsó típus": "AT MgS XSA XSB"
+  },
+  {
+    "ID": 252,
+    "Régi cikkszám": "RD14949",
+    "Új cikkszám": "10Q39",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS XSB"
+  },
+  {
+    "ID": 253,
+    "Régi cikkszám": "RD13874",
+    "Új cikkszám": "1032Z",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Guide A",
+    "Orsó típus": "AT MgS XSB XTB XSC XTC"
+  },
+  {
+    "ID": 254,
+    "Régi cikkszám": "RD21923",
+    "Új cikkszám": "10RB4",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero technium MgS 14000 XTD, 14000 XSD"
+  },
+  {
+    "ID": 255,
+    "Régi cikkszám": "RD11985",
+    "Új cikkszám": "10HCH",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS ESC, XTC, XSB, XTB, XSA; AT XSC, XTC, XSB, XTB"
+  },
+  {
+    "ID": 256,
+    "Régi cikkszám": "RD12735",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Tányérkerék",
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": "ULT XTB XSB 14000 10000"
+  },
+  {
+    "ID": 257,
+    "Régi cikkszám": "PK0068",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 258,
+    "Régi cikkszám": "PK0101",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 259,
+    "Régi cikkszám": "PK0099",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 260,
+    "Régi cikkszám": "RD8493",
+    "Új cikkszám": "10M81",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Bushing B",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 261,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10CHK",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Warm Gear",
+    "Orsó típus": "AT MgS XSB, XTB, XSC, XTC, XSD, XTD; AT XSC, XTC"
+  },
+  {
+    "ID": 263,
+    "Régi cikkszám": "RD14968",
+    "Új cikkszám": "10CNA",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS 10000XSB, 12000 XTB, 14000 XSC - XTC, 12000 XTC"
+  },
+  {
+    "ID": 264,
+    "Régi cikkszám": "PK0468",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Gear Set",
+    "Orsó típus": "ULT  SPOD"
+  },
+  {
+    "ID": 265,
+    "Régi cikkszám": "RD14964",
+    "Új cikkszám": "10M83",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Bushing",
+    "Orsó típus": "ATMgS XSB, XTB, XSC, XTC, XSD, XTD"
+  },
+  {
+    "ID": 266,
+    "Régi cikkszám": "PK0225",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtás szett",
+    "Megnevezés (angol)": "Gear set",
+    "Orsó típus": "ULT Ci4 5500"
+  },
+  {
+    "ID": 267,
+    "Régi cikkszám": "RD14967",
+    "Új cikkszám": "10M82",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Bushing",
+    "Orsó típus": "ATMgS XSB, XTB, XSC, XTC, XSD, XTD; AT XSC, XTC"
+  },
+  {
+    "ID": 268,
+    "Régi cikkszám": "PK0129",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Gear set",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 269,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10M7Z",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinion Worm Gear",
+    "Orsó típus": "AT MgS XSB, XTB, XSC, XTC"
+  },
+  {
+    "ID": 270,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "1073U",
+    "Megnevezés (magyar)": "Rotor Fedél Alsó",
+    "Megnevezés (angol)": "Rotor Guard ",
+    "Orsó típus": "Aero Technium MGS XSA, XSB"
+  },
+  {
+    "ID": 271,
+    "Régi cikkszám": "PK0214",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Gear Set",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 272,
+    "Régi cikkszám": "RD13547",
+    "Új cikkszám": "10PGP",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Baitr. 4000D ST FB, X-Aero FA DL FA"
+  },
+  {
+    "ID": 273,
+    "Régi cikkszám": "RD11948",
+    "Új cikkszám": "10929",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero Technium MGS XSA, XSB"
+  },
+  {
+    "ID": 274,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10Q8D",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Screw",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 275,
+    "Régi cikkszám": "RD11950",
+    "Új cikkszám": "10M9V",
+    "Megnevezés (magyar)": "Rotor Fedél",
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": "Aero Technium MGS XSA, XSB"
+  },
+  {
+    "ID": 276,
+    "Régi cikkszám": "RD11947",
+    "Új cikkszám": "10C2N",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ATMgS"
+  },
+  {
+    "ID": 277,
+    "Régi cikkszám": "RD13548",
+    "Új cikkszám": "10JVS",
+    "Megnevezés (magyar)": "Kulisszakerék rugó",
+    "Megnevezés (angol)": "Oscillating Ratchet Spring",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 278,
+    "Régi cikkszám": "RD11971",
+    "Új cikkszám": "106CU",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ATMgs XTD, XSD, XTC, XSC, XSB, XTB, XSA; AT XSC, XTC, XSB, XTB"
+  },
+  {
+    "ID": 279,
+    "Régi cikkszám": "RD9188",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtókar",
+    "Megnevezés (angol)": "Handle Assembly",
+    "Orsó típus": "Power Aero XT"
+  },
+  {
+    "ID": 280,
+    "Régi cikkszám": "RD13549",
+    "Új cikkszám": "10JVR",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 281,
+    "Régi cikkszám": "RD8339",
+    "Új cikkszám": "10PV5",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 282,
+    "Régi cikkszám": "RD22016",
+    "Új cikkszám": "10SP1",
+    "Megnevezés (magyar)": "Hézagoló szett",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero Technium Mg XTD XSD"
+  },
+  {
+    "ID": 283,
+    "Régi cikkszám": "RD6394",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 284,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10GAK",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bearing Spacer",
+    "Orsó típus": "ATMgs XSA XSB"
+  },
+  {
+    "ID": 285,
+    "Régi cikkszám": "RD11997",
+    "Új cikkszám": "104M2",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT Mgs XSA, XSB, XTB, XSC, XTC; AT XTC, XSC"
+  },
+  {
+    "ID": 286,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10D1P",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Hold Support Spacer",
+    "Orsó típus": "AT MgS XSB"
+  },
+  {
+    "ID": 287,
+    "Régi cikkszám": "PK0119",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Gear Set",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 288,
+    "Régi cikkszám": "RD11955",
+    "Új cikkszám": "10K59",
+    "Megnevezés (magyar)": "csavar betét",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 289,
+    "Régi cikkszám": "RD17833",
+    "Új cikkszám": "10C52",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Stradoc Ci4 4000 FT Sustain  4000 FI ULT 4000 FB",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 290,
+    "Régi cikkszám": "RD12778",
+    "Új cikkszám": "10GQA",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero Technium 10000 XSC, 6000 XSC, 12000 XTC; Aero Technium MgS 12000 XTB; Aero Technium 10000 XSB, 6000XSB, 12000 XTB"
+  },
+  {
+    "ID": 291,
+    "Régi cikkszám": "RD15645",
+    "Új cikkszám": "10BV6",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ULT5500 XSC, XTC, XSD, XTD"
+  },
+  {
+    "ID": 292,
+    "Régi cikkszám": "RD11738",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": "ULT5500 "
+  },
+  {
+    "ID": 293,
+    "Régi cikkszám": "RD11992",
+    "Új cikkszám": "10CT7",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Rear Protector B",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 294,
+    "Régi cikkszám": "RD11996",
+    "Új cikkszám": "10318",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT XSB, XTC, XSC, MgsXSA"
+  },
+  {
+    "ID": 295,
+    "Régi cikkszám": "PK0148",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Gear Set",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 296,
+    "Régi cikkszám": "RD21914",
+    "Új cikkszám": "10RAZ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Guide B",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 297,
+    "Régi cikkszám": "RD12743",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 298,
+    "Régi cikkszám": "RD16064",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinion Gear",
+    "Orsó típus": "ULT Ci4 14000 XSB, XTB, XSC, XTC"
+  },
+  {
+    "ID": 299,
+    "Régi cikkszám": "RD21915",
+    "Új cikkszám": "10RAW",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Guide A",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 300,
+    "Régi cikkszám": "RD21923",
+    "Új cikkszám": "10RB4",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider Bushing",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 301,
+    "Régi cikkszám": "RD16065",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": "ULT Ci4 14000 XSV, XTB, XSC, XTC, XSE, XTE"
+  },
+  {
+    "ID": 302,
+    "Régi cikkszám": "RD22016",
+    "Új cikkszám": "10SP1",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Washer",
+    "Orsó típus": "ATMgS XTD XSD"
+  },
+  {
+    "ID": 303,
+    "Régi cikkszám": "RD11993",
+    "Új cikkszám": "107CJ",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Aero Technium"
+  },
+  {
+    "ID": 304,
+    "Régi cikkszám": "RD14692",
+    "Új cikkszám": "10A5J",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 305,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10RB5",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Oscillating Slider",
+    "Orsó típus": "AT MgS XTD XSD"
+  },
+  {
+    "ID": 306,
+    "Régi cikkszám": "RD11756",
+    "Új cikkszám": "10CSS",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Medium Baitrunner XT-A LC, Tribal 5500 XTA, ULT Ci4 5500 XTA, ULT 5500 XTB, Alivio 10000 XSA, Alvio 10000 XTA"
+  },
+  {
+    "ID": 307,
+    "Régi cikkszám": "RD15280",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Body",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 308,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "107YB",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "AT MgS XTB"
+  },
+  {
+    "ID": 309,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10RAU",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Worm Shaft",
+    "Orsó típus": "ATMgS XTD XSD"
+  },
+  {
+    "ID": 310,
+    "Régi cikkszám": "RD18961",
+    "Új cikkszám": "10T29",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS XTC"
+  },
+  {
+    "ID": 311,
+    "Régi cikkszám": "RD12789",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Zsinór aláfutás gátló",
+    "Megnevezés (angol)": "Line Safety Guard",
+    "Orsó típus": "Aero Technium XTB"
+  },
+  {
+    "ID": 312,
+    "Régi cikkszám": "RD11759",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 313,
+    "Régi cikkszám": "RD13186",
+    "Új cikkszám": "10JSK",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 314,
+    "Régi cikkszám": "RD11736",
+    "Új cikkszám": "106WA",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": "ULT 5500 XTB XSB Ci4XSA, XTA, Titanos 5500 XSA "
+  },
+  {
+    "ID": 315,
+    "Régi cikkszám": "RD11754",
+    "Új cikkszám": "108ZB",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Line Safety Guard",
+    "Orsó típus": "ULT 5500 XTB ,  Tribal XTA"
+  },
+  {
+    "ID": 316,
+    "Régi cikkszám": "RD11995",
+    "Új cikkszám": "10H44",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "AT MgS XSC XTC XSB XSA"
+  },
+  {
+    "ID": 317,
+    "Régi cikkszám": "PK0068",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtás szett",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ARTCMGS10XSB"
+  },
+  {
+    "ID": 318,
+    "Régi cikkszám": "PK0070",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Bail Arm Kit",
+    "Orsó típus": "12ARTCMGS10XSB"
+  },
+  {
+    "ID": 319,
+    "Régi cikkszám": "PK0069",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Dobemelő szett",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 320,
+    "Régi cikkszám": "RD13714",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinion Gear",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 321,
+    "Régi cikkszám": "RD11975",
+    "Új cikkszám": "1097Y",
+    "Megnevezés (magyar)": "Tányérkerék",
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": "Aero technium MgS XSA"
+  },
+  {
+    "ID": 322,
+    "Régi cikkszám": "RD13020",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Csigatengely",
+    "Megnevezés (angol)": "Pinion Gear",
+    "Orsó típus": "Aero technium MgS XSA"
+  },
+  {
+    "ID": 323,
+    "Régi cikkszám": "RD9186",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Tányérkerék",
+    "Megnevezés (angol)": "Drive Gear",
+    "Orsó típus": "Power Aero XT 1000"
+  },
+  {
+    "ID": 324,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10LX9",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Pinion Gear",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 325,
+    "Régi cikkszám": "RD17636",
+    "Új cikkszám": "10H4C",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear C",
+    "Orsó típus": "ULT XTD XSD Ci4XTC XSC PowerAero XSB XTB Speedmaster XTC XSC"
+  },
+  {
+    "ID": 326,
+    "Régi cikkszám": "RD9178",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Csigatengely",
+    "Megnevezés (angol)": "Pinion Gear ",
+    "Orsó típus": "Power Aero XT 1000"
+  },
+  {
+    "ID": 327,
+    "Régi cikkszám": "RD9174",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Felkapókar",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Power Aero XT 1000"
+  },
+  {
+    "ID": 328,
+    "Régi cikkszám": "RD9166",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Tengely",
+    "Megnevezés (angol)": "Main Shaft",
+    "Orsó típus": "Power Aero XT 1000"
+  },
+  {
+    "ID": 329,
+    "Régi cikkszám": "RD9171",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Rotor fedél",
+    "Megnevezés (angol)": "Bail Spring Cover",
+    "Orsó típus": "Power Aero XT 1000"
+  },
+  {
+    "ID": 330,
+    "Régi cikkszám": "RD15657",
+    "Új cikkszám": "10H4A",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "IDle Gear C",
+    "Orsó típus": "ULT5500"
+  },
+  {
+    "ID": 331,
+    "Régi cikkszám": "RD9173",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Rotor fedél",
+    "Megnevezés (angol)": "Bail Hold Support Guard",
+    "Orsó típus": "Power Aero XT 1000"
+  },
+  {
+    "ID": 332,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "104A3",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "ULT 5500 XTB, 4500 XSB, 5500 XSB, Tribal 5500 XTA, ULT 4500 XSC 5500 XSC, 5500 XTC, ULT 5500 XSD, 5500XTD, Titanos 4500 XSA, 5500 XSA"
+  },
+  {
+    "ID": 333,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10DJ7",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear B Small",
+    "Orsó típus": "ULT SPODXTD"
+  },
+  {
+    "ID": 334,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10S6T",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear B Large",
+    "Orsó típus": "ULT SPODXTE XTD"
+  },
+  {
+    "ID": 335,
+    "Régi cikkszám": "RD18436",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear B Small",
+    "Orsó típus": "BBLC XTB, BBLC Ci4 + XTB"
+  },
+  {
+    "ID": 336,
+    "Régi cikkszám": "RD3273",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Screw Cap Lock",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 337,
+    "Régi cikkszám": "RD14719",
+    "Új cikkszám": "10HB8",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": "BBLC CI4 + XTB XTRA XTA XTB"
+  },
+  {
+    "ID": 338,
+    "Régi cikkszám": "RD3387",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Handle Screw Lock",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 339,
+    "Régi cikkszám": "RD15178",
+    "Új cikkszám": "10H4B",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear C",
+    "Orsó típus": "ULT XSC 14000"
+  },
+  {
+    "ID": 340,
+    "Régi cikkszám": "RD18440",
+    "Új cikkszám": "10S2X",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Handle Screw Cap",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 341,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10H9B",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 342,
+    "Régi cikkszám": "RD14755",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 343,
+    "Régi cikkszám": "RD14935",
+    "Új cikkszám": "10HBB",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": "Sustain 4000FG, 5000FG; Stradic 4000FJ, 5000FJ"
+  },
+  {
+    "ID": 344,
+    "Régi cikkszám": "RD3387",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 345,
+    "Régi cikkszám": "RD12930",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Handle Screw Lock Washer",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 346,
+    "Régi cikkszám": "RD6742",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 347,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "10N3U",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Handle Screw Cap",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 348,
+    "Régi cikkszám": "RD22386",
+    "Új cikkszám": "10SUE",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Idle Gear C",
+    "Orsó típus": "ULTXTEXSE, SPEEDM. XTD XSD"
+  },
+  {
+    "ID": 349,
+    "Régi cikkszám": "RD13194",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 350,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtókar csavar kocka",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 351,
+    "Régi cikkszám": "RD18003",
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 352,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtókar csavar",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Baitrunner GTR"
+  },
+  {
+    "ID": 353,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtókar csavar",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Baitrunner GTR"
+  },
+  {
+    "ID": 354,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtókar",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "DAIWA"
+  },
+  {
+    "ID": 355,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": NaN,
+    "Megnevezés (magyar)": "Hajtókar",
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Titanos XSA 4500"
+  },
+  {
+    "ID": 356,
+    "Régi cikkszám": "RD16609",
+    "Új cikkszám": "10AYT",
+    "Megnevezés (magyar)": "Pergető ház dugó",
+    "Megnevezés (angol)": "Body Flage Seal",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 357,
+    "Régi cikkszám": "RD20344",
+    "Új cikkszám": "10TAD",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": NaN,
+    "Orsó típus": "Sienna 4000 FG"
+  },
+  {
+    "ID": 358,
+    "Régi cikkszám": "RD17635",
+    "Új cikkszám": "10DFW",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Handle Assembly",
+    "Orsó típus": "BBLC XTB, ULT XT SM XTC"
+  },
+  {
+    "ID": 359,
+    "Régi cikkszám": "RD13600",
+    "Új cikkszám": "106JW",
+    "Megnevezés (magyar)": NaN,
+    "Megnevezés (angol)": "Baitrunner Pawl Guide",
+    "Orsó típus": "BBLC Ci4 XTB, XTRA, XTA, XTB, 12000D, 12000 DC"
+  },
+  {
+    "ID": 360,
+    "Régi cikkszám": NaN,
+    "Új cikkszám": "13AYP",
+    "Megnevezés (magyar)": "Hajtókar fogantyú",
+    "Megnevezés (angol)": "Handle Knob",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 361,
+    "Régi cikkszám": "RD18753",
+    "Új cikkszám": "101CV",
+    "Megnevezés (magyar)": "Hajtókar fogantyú kupak",
+    "Megnevezés (angol)": "Handle Knob Seal",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 362,
+    "Régi cikkszám": "RD20996",
+    "Új cikkszám": "10097",
+    "Megnevezés (magyar)": "Felkapókar fül",
+    "Megnevezés (angol)": "Bail Arm",
+    "Orsó típus": "Vanford 2500, 3000 F"
+  },
+  {
+    "ID": 363,
+    "Régi cikkszám": "RD14295",
+    "Új cikkszám": "1040Q",
+    "Megnevezés (magyar)": "Hajtókar fogantyú",
+    "Megnevezés (angol)": "Handle Knob",
+    "Orsó típus": "Vanquish 4000 FA Exence 4000 MXG"
+  },
+  {
+    "ID": 364,
+    "Régi cikkszám": "RD18986",
+    "Új cikkszám": "1005Q",
+    "Megnevezés (magyar)": "Hajtókar fogantyú kupak",
+    "Megnevezés (angol)": "Handle Knob Seal",
+    "Orsó típus": "Stella 4000 FJ FK"
+  },
+  {
+    "ID": 365,
+    "Régi cikkszám": "RD18751",
+    "Új cikkszám": "1022F",
+    "Megnevezés (magyar)": "Hajtókar fogantyú távtartó cső",
+    "Megnevezés (angol)": "Handle Knob Pipe",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 366,
+    "Régi cikkszám": "RD19025",
+    "Új cikkszám": "1005M",
+    "Megnevezés (magyar)": "Hajtókar fogantyú",
+    "Megnevezés (angol)": "Handle Knob",
+    "Orsó típus": "Stella 4000 FJ  "
+  },
+  {
+    "ID": 367,
+    "Régi cikkszám": "RD17718",
+    "Új cikkszám": "10DMQ",
+    "Megnevezés (magyar)": "Dobemelő tengely",
+    "Megnevezés (angol)": "Worm Shaft",
+    "Orsó típus": "Ultegra 5500 XTD,XSD, Ci4+ XTC,XSC"
+  },
+  {
+    "ID": 368,
+    "Régi cikkszám": "RD22392",
+    "Új cikkszám": "10SHY",
+    "Megnevezés (magyar)": "Hajtókar fogantyú kupak",
+    "Megnevezés (angol)": "Handle Knob Seal",
+    "Orsó típus": "Ultegra XSE,XTE"
+  },
+  {
+    "ID": 369,
+    "Régi cikkszám": "RD19765",
+    "Új cikkszám": "100EY",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear B",
+    "Orsó típus": "Ultegra XSE,XTE"
+  },
+  {
+    "ID": 370,
+    "Régi cikkszám": "RD15641",
+    "Új cikkszám": "106YU",
+    "Megnevezés (magyar)": "Felkapókar",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Ultegra 5500 XSC XSD"
+  },
+  {
+    "ID": 371,
+    "Régi cikkszám": "RD18837",
+    "Új cikkszám": "10STT",
+    "Megnevezés (magyar)": "Dobemelő tengely",
+    "Megnevezés (angol)": "Worm Shaft",
+    "Orsó típus": "ULTXTD SPOD, SPEEDMASTER XTC XSC BEASTMASTER  XC"
+  },
+  {
+    "ID": 372,
+    "Régi cikkszám": "RD18800",
+    "Új cikkszám": "10S5S",
+    "Megnevezés (magyar)": "Zsinór aláfutás gátló",
+    "Megnevezés (angol)": "Line Safety",
+    "Orsó típus": "ULTCi+ 5500XTC XSC MBLC Ci4+ XTB"
+  },
+  {
+    "ID": 373,
+    "Régi cikkszám": "RD16798",
+    "Új cikkszám": "10CQN",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear B",
+    "Orsó típus": "Stradic Ci42500,3000FB Sustain2500FI Aero2500FA ULT2500,3000FB"
+  },
+  {
+    "ID": 374,
+    "Régi cikkszám": "RD15882",
+    "Új cikkszám": "106RH",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear B",
+    "Orsó típus": "AeroCi44000FA Aero2500FA ULTFB SustainFI StradicFK"
+  },
+  {
+    "ID": 375,
+    "Régi cikkszám": "RD15368",
+    "Új cikkszám": "10HBH",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": "Stradic1000-5000FK AeroCi44000FA Aero4000FA Sustain FI StradicCi4FB"
+  },
+  {
+    "ID": 376,
+    "Régi cikkszám": "RD22387",
+    "Új cikkszám": "10SU1",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear B",
+    "Orsó típus": "Ultegra XSE,XTE XR SpeedM XTD XSD"
+  },
+  {
+    "ID": 377,
+    "Régi cikkszám": "RD22386",
+    "Új cikkszám": "10SUE",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear C",
+    "Orsó típus": "Ultegra XSE,XTE XR SpeedM XTD XSD"
+  },
+  {
+    "ID": 378,
+    "Régi cikkszám": "RD22379",
+    "Új cikkszám": "10TM7",
+    "Megnevezés (magyar)": "O-gyűrű",
+    "Megnevezés (angol)": "O Ring",
+    "Orsó típus": "Ultegra XSE,XTE"
+  },
+  {
+    "ID": 379,
+    "Régi cikkszám": "RD18744",
+    "Új cikkszám": "10DK0",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 380,
+    "Régi cikkszám": "RD17988",
+    "Új cikkszám": "1026S",
+    "Megnevezés (magyar)": "Zsinór aláfutás gátló",
+    "Megnevezés (angol)": "Line Safety",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 381,
+    "Régi cikkszám": "RD18435",
+    "Új cikkszám": "10CN7",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear B",
+    "Orsó típus": "BBLCCi4+XTB"
+  },
+  {
+    "ID": 382,
+    "Régi cikkszám": "RD19076",
+    "Új cikkszám": "10CN9",
+    "Megnevezés (magyar)": "Közlőkerék",
+    "Megnevezés (angol)": "Idle Gear B",
+    "Orsó típus": "BBLCCi4+XTB"
+  },
+  {
+    "ID": 383,
+    "Régi cikkszám": "RD17210",
+    "Új cikkszám": "10CBD",
+    "Megnevezés (magyar)": "Ház tömítés",
+    "Megnevezés (angol)": "Flange water proof",
+    "Orsó típus": "ULTFB STRDFKCi4FB Sustain SpherosSW300 4000"
+  },
+  {
+    "ID": 384,
+    "Régi cikkszám": "RD10381",
+    "Új cikkszám": "10P4J",
+    "Megnevezés (magyar)": "Hajtókar ellenoldali kupak",
+    "Megnevezés (angol)": "Handle srcew cap",
+    "Orsó típus": "TP5000FB1000,2500,3000,4000FC Aspire2500,4000FA"
+  },
+  {
+    "ID": 385,
+    "Régi cikkszám": "RD22397",
+    "Új cikkszám": "10S0K",
+    "Megnevezés (magyar)": "Felkapókar",
+    "Megnevezés (angol)": "Bail Assembly",
+    "Orsó típus": "Ultegra  XSE"
+  },
+  {
+    "ID": 386,
+    "Régi cikkszám": "RD5725",
+    "Új cikkszám": "106V1",
+    "Megnevezés (magyar)": "Dobemelő lapka",
+    "Megnevezés (angol)": "Pawl",
+    "Orsó típus": NaN
+  },
+  {
+    "ID": 387,
+    "Régi cikkszám": "RD15166",
+    "Új cikkszám": "10H4E",
+    "Megnevezés (magyar)": "Közlőkerék tengely",
+    "Megnevezés (angol)": "Idle Gear C shaft",
+    "Orsó típus": "Ultegra XTD XSD XSC XTC                                      Ultegra Ci4 XSB XTB XSC XTC                 Speedmaster XSC XTC Speedcast XSB XTB     "
+  },
+  {
+    "ID": 388,
+    "Régi cikkszám": "RD15165",
+    "Új cikkszám": "10CKK",
+    "Megnevezés (magyar)": "Közlőkerék tengely",
+    "Megnevezés (angol)": "Idle Gear B shaft",
+    "Orsó típus": "Ultegra XTD XSD XSC XTC                                      Ultegra Ci4 XSB XTB XSC XTC                 Speedmaster XSC XTC Speedcast XSB XTB     "
+  },
+  {
+    "ID": 389,
+    "Régi cikkszám": "RD22376",
+    "Új cikkszám": "10QXG",
+    "Megnevezés (magyar)": "Hajtókar ellenoldali kupak",
+    "Megnevezés (angol)": "Handle srcew cap",
+    "Orsó típus": "Ultegra XTE XR SpeedM XTD"
+  },
+  {
+    "ID": 390,
+    "Régi cikkszám": "RD18735",
+    "Új cikkszám": "10S2L",
+    "Megnevezés (magyar)": "Visszaforgás gátló",
+    "Megnevezés (angol)": "Roller clutch assembly",
+    "Orsó típus": NaN
+  }
+]

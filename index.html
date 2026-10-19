@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Yellow Carp - Főoldal</title>
+  <link rel="icon" type="image/png" href="/logo.png?v=2">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f5e72d, #3cb4e5);
+    }
+
+	h1, h2, .sidebar h2 {
+	  font-family: 'Montserrat', sans-serif;
+	}
+
+    .page-container {
+      display: flex;
+      flex: 1;
+    }
+	
+    .content-wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-right: 200px;
+    }
+	.sidebar ul li a.active {
+	  background-color: #3cb4e5;
+	  color: #fff;
+	  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	  transform: scale(1.05);
+	}
+
+
+	.sidebar {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 180px;
+	  height: 100vh;
+	  color: #f1c40f;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  padding-top: 10px;
+	  z-index: 1000;
+
+
+	  background-image: url('sav.png');
+	  background-repeat: repeat;
+      background-size: 800px;
+	  background-position: center;
+	}
+
+
+    .sidebar h2 {
+      text-align: center;
+      font-size: 1.4em;
+      background-color: #1b2838;
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin: 15px 0 25px 0;
+      color: #f1c40f;
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+    .sidebar ul li a {
+      color: #f1c40f;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      padding: 15px 20px;
+      transition: all 0.3s ease;
+      border-radius: 6px;
+      margin: 5px 10px;
+    }
+
+    .sidebar ul li a:hover {
+      background-color: #3cb4e5;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .hamburger {
+      display: none;
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      width: 30px;
+      height: 25px;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 2000;
+      cursor: pointer;
+    }
+
+    .hamburger span {
+      height: 4px;
+      background: #f1c40f;
+      border-radius: 2px;
+    }
+
+    .main-area {
+      margin-left: 180px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main-content {
+      padding: 40px;
+      flex-grow: 1;
+      position: relative;
+    }
+
+    header h1 {
+      margin-bottom: 40px;
+    }
+
+    .corner-logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 250px;
+    }
+
+    .intro-text {
+      max-width: 800px;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+
+    .separator {
+      margin: 60px 0;
+      height: 2px;
+      background: rgba(0,0,0,0.2);
+    }
+
+    .posts-section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.6em;
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+
+    .post-card {
+      background: linear-gradient(135deg, #fff9b0, #ccecff);
+      border-radius: 14px;
+      padding: 16px;
+      cursor: pointer;
+      min-height: 260px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+
+    .post-card:hover {
+      transform: scale(1.04);
+    }
+
+    .post-image {
+      width: 100%;
+      height: 110px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    .post-card h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.05em;
+    }
+
+    .post-card p {
+      font-size: 0.95em;
+      line-height: 1.4;
+      flex-grow: 1;
+    }
+
+	.modal {
+	  display: none;
+	  position: fixed;
+	  inset: 0;
+	  background: rgba(0,0,0,0.75);
+	  z-index: 3000;
+
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+
+	  padding: 20px;
+	  overflow: auto;
+	}
+
+	.modal-content {
+	  width: 100%;
+	  max-width: 750px;
+
+	  max-height: 90vh;
+	  overflow-y: auto;
+
+	  padding: 30px;
+	  border-radius: 14px;
+	  position: relative;
+
+	  box-sizing: border-box;
+	}
+
+	.modal-content {
+	  transform: scale(0.92);
+	  opacity: 0;
+	  transition: transform 0.25s ease, opacity 0.25s ease;
+	}
+
+	.modal.show .modal-content {
+	  transform: scale(1);
+	  opacity: 1;
+	}
+
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 1.8em;
+      cursor: pointer;
+    }
+
+    .bottom-bar {
+      background-color: #1b1b1b;
+      color: #f1f1f1;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      width: auto;
+      margin-top: auto;
+    }
+
+    .bottom-bar a {
+      color: #f1c40f;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    .bottom-bar a:hover {
+      text-decoration: underline;
+    }
+
+	.posts-section h2 {
+	  text-align: center;
+	  margin-bottom: 30px;
+	}
+
+	.posts-grid {
+	  display: grid;
+	  grid-template-columns: repeat(5, 1fr);
+	  gap: 18px;
+	}
+
+	.post-card {
+	  background: linear-gradient(
+		135deg,
+		rgba(255, 244, 150, 0.95),
+		rgba(120, 200, 255, 0.95)
+	  );
+	  border-radius: 16px;
+	  padding: 16px;
+	  cursor: pointer;
+	  min-height: 320px;
+	  display: flex;
+	  flex-direction: column;
+	  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+	  transition: transform 0.2s;
+	}
+
+	.post-card:hover {
+	  transform: scale(1.05);
+	}
+
+	.post-image {
+	  height: 180px;
+	  background-size: cover;
+	  background-position: center;
+	  border-radius: 12px;
+	  margin-bottom: 12px;
+	}
+
+	.post-card h3 {
+	  font-size: 1.05em;
+	  margin-bottom: 10px;
+	}
+
+	.post-card p {
+	  font-size: 0.95em;
+	  line-height: 1.4;
+	  display: -webkit-box;
+	  -webkit-line-clamp: 6;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	}
+
+	.modal {
+	  display: none;
+	  position: fixed;
+	  inset: 0;
+	  background: rgba(0,0,0,0.75);
+	  z-index: 3000;
+	}
+
+	.modal-content {
+	  max-width: 750px;
+	  margin: 4vh auto;
+	  padding: 30px;
+	  border-radius: 14px;
+	  position: relative;
+	  background: linear-gradient(
+      135deg,
+      rgba(255, 244, 150, 0.95),
+      rgba(120, 200, 255, 0.95)
+      );
+	}
+
+	.close {
+	  position: absolute;
+	  top: 10px;
+	  right: 15px;
+	  font-size: 1.8em;
+	  cursor: pointer;
+	}
+	.post-gallery {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  gap: 12px;
+	  margin: 20px 0;
+	}
+
+	.post-gallery img {
+	  width: calc((100% - 36px) / 4);
+	  max-width: 250px;
+	  height: auto;
+	  object-fit: cover;
+	  border-radius: 12px;
+	  box-shadow: 0 0 8px rgba(0,0,0,0.25);
+	  transition: transform 0.2s;
+	}
+
+	.post-gallery img:hover {
+	  transform: scale(1.05);
+	}
+	.image-viewer {
+	  display: none;
+	  position: fixed;
+	  inset: 0;
+	  background: rgba(0,0,0,0.85);
+	  z-index: 4000;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	.image-viewer img {
+	  max-width: 90%;
+	  max-height: 90%;
+	  border-radius: 16px;
+	  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+	}
+
+	.image-viewer.active {
+	  display: flex;
+	}
+
+	.image-viewer .close {
+	  position: absolute;
+	  top: 20px;
+	  right: 30px;
+	  font-size: 2em;
+	  color: white;
+	  cursor: pointer;
+	}
+		
+  </style>
+  <link rel="stylesheet" href="mobileindex.css">
+</head>
+
+<body>
+
+<div class="hamburger" id="hamburger">
+  <span></span><span></span><span></span>
+</div>
+
+<div class="page-container">
+  <div class="sidebar" id="sidebar">
+    <h2>Yellow Carp</h2>
+    <ul>
+      <li><a href="index.html">Főoldal</a></li>
+      <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+      <li><a href="alkatresztablazat.html">Alkatrészek</a></li>
+      <li><a href="kapcsolat.html">Kapcsolat</a></li>
+      <li><a href="gyik.html">GY.I.K</a></li>
+    </ul>
+  </div>
+
+  <div class="main-area">
+    <div class="main-content">
+
+      <header>
+        <h1>Üdvözlünk a Yellow Carp orsószerviz oldalán!</h1>
+      </header>
+      <img src="NagyLogo.png" class="corner-logo" alt="Yellow Carp">
+
+
+        <div class="content-wrapper">
+          <div class="intro-text">
+			
+			<p>Pletser Imre vagyok, a Yellow Carp orsószerviz üzemeltetője, tulajdonosa. Már gyerekkoromban lenyűgözött a horgászorsók működése, a mások által kidobásra ítélt darabokból igyekeztem magamnak és ismerősöknek használható szerkezetet összehozni. Ezeken az orsókon szerzett tapasztalatok után, rövidesen rendszeressé vált, hogy jobb állapotúakat is kitakarítottam, átzsíroztam, hézagoltam. Később jött egy hosszabb időszak, amikor nem nagyon foglalkoztam orsókkal, de 2012 körül ismét visszatértem a régi szenvedélyemhez, a horgászathoz. Több gyártó akkori kiadású típusával próbálkoztam, de annak ellenére, hogy már a műszaki tanulmányaimat is fel tudtam használni és komolyabban beleástam magam karbantartásukba, jobbá tételükbe, mégiscsak bosszúságot okoztak, a sokszor kritikán aluli minőségükkel.  Sokadik váltás után került a kezembe az első Ultegra páros és ezután nagyon gyorsan beütött nálam a Shimano „szerelem”. Azóta leginkább ennek a márkának a szervizelése, optimalizálása vált hobbiból, már-már igazi hivatássá. ( Nem vagyok teljesen elvakult, előfordulhat, ha akkor egy jobb Daiwa, Penn párossal hoz össze a sors, akkor lehet máshogy alakul, mert azért nekik is vannak igen jó orsóik.)
+			<p>Ez vezetett oda, hogy ma, legyen szó bármilyen, leginkább SHIMANO peremfutó orsóról, precíz munkával, gyári, vagy minőségi kisipari tuning alkatrészekkel, magas minőségű, rozsdamentes csapágyakkal, modern kenőanyagokkal állok neki a legolcsóbb, egy csapágyas, kulisszás dobemelésű orsóknak és a tengeri Stellák szervizelésének is. A maga szintjén mindegyik meghálálja a törődést.
+
+          </div>
+        </div>
+
+      <div class="separator"></div>
+
+      <section class="posts-section">
+        <h2>Bejegyzések</h2>
+
+        <div class="posts-grid">
+
+          <!-- POST 1 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post1.jpg')"></div>
+            <h3>BeastMaster 14000 XC került a „boncasztalra”</h3>
+			<p>
+			Ahogy a külsején is látszik, közvetlenül a <strong>Speedmaster XTC-XSC</strong> orsók leszármazottja
+			(amik meg ugye műszakilag az előző jó néhány <strong>Ultegrának</strong> a klónjai)...
+			
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+					<img src="post1_1.jpg" alt="">
+					<img src="post1_2.jpg" alt="">
+					<img src="post1_3.jpg" alt="">
+					<img src="post1_4.jpg" alt="">
+					
+				</div>
+              <h2>BeastMaster 14000 XC került a „boncasztalra”</h2>
+				<p>
+				Ahogy a külsején is látszik, közvetlenül a Speedmaster XTC-XSC orsók leszármazottja (amik meg ugye műszakilag az előző jó néhány Ultegrának a klónjai). Így bátran mondhatjuk, hogy tulajdonképpen egy Ultegrával van dolgunk.<br>
+				A weben sok helyen olvasható jellemzőket átugorva írnám le, mit láttam.
+				A zsinórvezető ház az általam kevésbé szeretett alap típus, de szerencsére a minimálisan jobb, króm bevonatos. Ez ugyanúgy műanyag, mint a fekete változata, de tapasztalatok alapján ebbe kissé ritkábban vág bele a zsinór.<br>
+				A régebbi, például az Aerlexeknél is használt hajtókar fém, masszív kivitel. A fogantyú sajnos nem csapágyazható, és mint ennél a fajtánál megszokott, már újonnan is kicsit lóg. Sűrűn kell tisztítani és nagyon lágy zsírral bekenni, így lassabb ütemben kotyogósodik tovább.<br>
+				A zsinórvezető görgőben a szokásos krómozott réz persely található, ezt egyből lecseréltem egy kétcsapágyas szettre.<br>
+				A tányérkerék tengely a Shimanótól jól ismert kék műanyag perselyekben forgott, ezek is csapágyra lettek cserélve.<br>
+				Szintén csere után kiáltott a csigatengely alján található műanyag persely.<br>
+				Ha már lendületben voltam, a dobemelő tengely két végén lévő perselyek helyére is csapágy szett került.<br>
+				Mivel jobban szeretem a tapadásmentesebb és gyorsabb féket, a gyári filc lamellákat teflonra cseréltem.<br>
+				Az olcsóbb eladási ár érdekében dobszűkítőket nem csomagoltak hozzá, de szerencsére jó hozzá az eddigi 14000-es dobokhoz való, amiből van bőven nálam, és ki is egészítettem a csomagot egy 10000-es és egy 3500-as méretűvel.<br>
+				Nem volt különösebb hézag a ház és a fedele csatlakozásánál, de a végén ház tömítést is kapott.<br>
+				Oké, zsebbe kell nyúlni egy ilyen komplett tuningért, de az orsó új árával együtt is megéri, mert egy 8+1 csapágyas, 14000-es, távdobó, Ultegra minőségű, de annál magasabb szintre fejlesztett, vadi új orsót kapunk.
+				</p>
+
+            </div>
+          </div>
+
+          <!-- POST 2 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post2.jpg')"></div>
+            <h3>Ultegra 5500 XTC-XSC Ci4</h3>
+            <p>Már az ötödik Ultegra 5500 XTC-XSC Ci4 tulajdonossal találkoztam, aki nem elégedett az orsó fékjével. Egybehangzóan mondták el, hogy akadozva adagolják a zsinórt fárasztáskor és nagyobb...</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+					<img src="post2_1.jpg" alt="">
+					<img src="post2_2.jpg" alt="">
+					<img src="post2_3.jpg" alt="">
+					<img src="post2_4.jpg" alt="">
+					
+				</div>
+              <h2>Ultegra 5500 XTC-XSC Ci4</h2>
+              <p>Már nagyon sok Ultegra 5500 XTC-XSC Ci4 tulajdonossal találkoztam, aki nem elégedett az orsó fékjével. Mindenki, a fárasztás közben, akadozva, egyenletlenül adagolt a zsinórra panaszkodik. Úgy gondolom, megvan a probléma oka. A képeken egy ilyen orsó fém féklamellái vannak, amiken látható, milyen kis felületen és ráadásul, egyenletlenül fekszenek fel a gyári, igen kemény (talán POM anyagú) lamellákra. Ez pedig egyenes út az akadozó fékhez. Egyik orsónál a tulajdonos a fém lamellákat munkálta közel teljesen síkra, elmondása szerint az ő igen hosszú fém megmunkálási gyakorlatával sem volt egyszerű úgy megoldani, hogy lényegesen ne vékonyítson rajtuk. Több orsóba pedig, és ez itt a reklám helye , az általam készített teflon lamella került, ami jóval lágyabb, mint a gyári, így jobban tolerálja a fém egyenletlenségét.</p>
+            </div>
+          </div>
+
+          <!-- POST 3 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post3.jpg')"></div>
+            <h3>A dobszoknyák...</h3>
+            <p>A dobszoknyák (zsinór aláfutás gátló) törése eléggé bosszantó és zsebbe nyúlós dolog. Ezen kívül jelenleg akadozik is az ellátás belőlük. A két leggyakoribbnak mondható oka, pedig...</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+						  <video controls width="21%" style="border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.25);" muted>
+							<source src="post3_2.mp4" type="video/mp4">
+							A böngésződ nem támogatja a videó lejátszást.
+						  </video>
+
+						<img src="post3_1.jpg" alt="">
+				</div>
+              <h2>A dobszoknyák...</h2>
+              <p>A dobszoknyák (zsinór aláfutás gátló) törése eléggé bosszantó és zsebbe nyúlós dolog. Ezen kívül néha akadozik is az ellátás belőlük. A két leggyakoribbnak mondható oka, pedig olyan dolog, amit odafigyeléssel el tudunk kerülni. Az első helyen szerepel a szállítás. Mint a mellékelt videón és képen is látszik, nem kell túl sok a szoknya fülnek, hogy akár a botzsákban, akár az orsó tartóban annyira megnyomódjon a felső holtpont közelében állo szoknya, hogy mellé menjen a vezető vályúnak. És ha már mellette van és elkezdjük tekerni az orsót, akkor lefelé haladva egyre jobban feszülni fog, aztán le is törik. Így érdemes használatba vétel előtt meggyőződni rendesen áll e. A második, amikor valaki az esetleg nyeletősre állított féknél úgy vág be, hogy ráfog a dobra. Ilyenkor is nagyon könnyen ki lehet téríteni a pályájából és ismét megvan a baj.
+				Aztán van még egy harmadik dolog, ami azért eléggé sűrűn előfordul. Amikor valaki nekilát takarítani, szervizelni az orsóját és a külső gyűrűjénél fogva akarja az összes felette lévő alkatrésszel együtt lehúzni a szoknyát. Na ennek is törés a vége.</p>
+            </div>
+          </div>
+
+          <!-- POST 4 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post4.jpg')"></div>
+            <h3>Műanyag persely helyett csapágy!</h3>
+            <p>Ezeken a képeken látható, hogy egy gyárilag műanyag persellyel szerelt, kettő éves, nem agyonhasznált orsó, tányérkerék tengely a műanyag perselye alatt...</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+					<img src="post4_1.jpg" alt="">
+					<img src="post4_2.jpg" alt="">
+					<img src="post4_3.jpg" alt="">
+				</div>
+              <h2>Műanyag persely helyett csapágy!</h2>
+              <p>Ezeken a képeken látható, hogy egy gyárilag műanyag persellyel szerelt, kettő éves, nem agyonhasznált orsó, tányérkerék tengely a műanyag perselye alatt milyen mértékben kopott meg, annak ellenére, hogy volt rajta kenőanyag. Jól látható, hogy amennyiben valaki gondolkodik az orsója tuningolásán, érdemes ezt minél előbb elvégezni, hogy a persely helyére betett csapágy, ne egy már kopott alkatrészre kerüljön. Persze, ha már megvan egy ideje az orsó és még nem lett kicserélve, akkor érvénybe lép a jobb később, mint soha.
+</p>
+            </div>
+          </div>
+
+          <!-- POST 5 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post5.jpg')"></div>
+            <h3>Zsinór csavarodás</h3>
+            <p>Az valószínűleg nem újdonság már senkinek, hogy leggyakrabban a zsinór csavarodás oka az orsó zsinórvezető görgőjénél keresendő. Amikor a görgő bármi okból fékezôdik és nem forog azzal...</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+					<img src="post5.jpg" alt="">
+					
+				</div>
+            <h2>Zsinór csavarodás</h2>
+            <p>Az valószínűleg nem újdonság már senkinek, hogy a zsinór csavarodás oka, leggyakrabban az orsó zsinórvezető görgőjénél keresendő. Amikor a görgő bármi okból fékezôdik és nem forog azzal a sebességgel, ahogy a 
+			zsinór halad rajta, akkor lép fel ez a jelenség. Sajnos, ahogy más gyártók, úgy a Shimano is spórol a görgők csapágyazásán és gyakran perselyt tesz a görgőbe és így előre borítékolható, hogy nem fog tökéletesen 
+			forogni, ezért érdemes csapágyra cserélni a görgőt. Sokan ezt felesleges pénz kidobásnak gondolják, mert bíznak a shimi mérnökeiben. Nekik ajánlanám a figyelmébe a fotón látható görgőket. Mindhárom krómozott réz 
+			és 14000-es Ultegrából van. Az alsó görgő egy új orsóból származik, középső görgő egy kb egy éves heavy feeder boton használtból, a felső pedig egy nagyjából másfél szezont futott bojlisból. Mindkét orsó 
+			tulajdonosa mondta, hogy kissé csavarodott a zsinórja, aminek valószínűleg, ez súrlódás által okozott némileg lassabb forgás volt az oka és ez a surlódás okozta a kopást is, ami annak ellenére bekövetkezett, hogy 
+			mindegyik perselyen volt a gyári kenőanyagból. Szerencsére a görgők csapágyra cserélése után teljesen megszűnt a zsinórok csavarodása.</p>
+			
+			
+
+            </div>
+          </div>
+
+          <!-- POST 6 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('nopic.png')"></div>
+            <h3>A hosszú életű Shimano orsó titka</h3>
+			<p>
+			Egy a neten fellelhető téma századik megközelítésből. Miért is kell újonnan foglalkozni egy Shimano orsóval, ha szeretnénk, hogy hosszú életű legyen? A bemutatáshoz egy szinte teljesen új....
+			</p>
+			<div class="full-post" style="display:none">
+				<div class="post-gallery">
+						  <video controls width="21%" style="border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.25);" muted>
+							<source src="post6.mp4" type="video/mp4">
+							A böngésződ nem támogatja a videó lejátszást.
+						  </video>
+						  <video controls width="21%" style="border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.25);" muted>
+							<source src="post6_1.mp4" type="video/mp4">
+							A böngésződ nem támogatja a videó lejátszást.
+						  </video>
+
+				</div>
+
+              <h2>A hosszú életű Shimano orsó titka</h2>
+				<p>
+				Egy a neten fellelhető téma századik megközelítésből. Miért is kell újonnan foglalkozni egy Shimano orsóval, ha szeretnénk, hogy hosszú életű legyen? A bemutatáshoz egy szinte teljesen új orsót használtam, nem egy agyon koptatott darabot.<br><br>
+				Első videón a hajtókar tengely irányú mozgásából látható, hogy a tányérkerék hézagolását gyárilag nem túl pontosan végzik el. Persze nem szabad nullára hézagolni, de azért ez egy picit sok és sajnos ennél sokkal durvább kotyogással is találkozhatunk vadi új orsónál is. Ennek a hibának közvetlen következménye, hogy amikor tekerés közben óhatatlanul tengely irányban is mozgatjuk a kart, azon keresztül a hajtó tányérkerék fogait úgy dörzsöljük a csigatengelyen, amire egy ilyen hajtás nincs tervezve és így gyorsabban elkopik.
+				<br><br>
+				Második videón a dobemelő (worm) tengely szintén tengely irányú kotyogása. Mivel itt több problémát is okoz ez a feleslegesen nagy holtjáték, ezért csak egy nagyon lerövidített és egyszerűsített magyarázat, hogy ez miért baj. Ennek a tengelynek a vájatában fut egy kb 1mm vastag &quot;nyelv&quot;, ami tulajdonképpen emeli a dobot. Ez minden irányváltáskor, alsó és felső holtponton, lök egyet a tengelyen le illetve fel. Így itt is kapunk egy olyan felesleges mozgást, amire nincs szükség és csak plusz kopást okoz. Mondjuk itt már nem csak hézagolni tudunk a tartósabbá tételért, hanem még csapagyazhatunk is, ami már egy másik téma lesz.
+				</p>
+
+            </div>
+          </div>
+
+          <!-- POST 7 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post7.jpg')"></div>
+            <h3>Újra egy, „miért is nem árt újonnan átnézni az orsónkat“ bejegyzés?</h3>
+            <p>A fotón látható, hogy még a zsír mennyisége elfogadható lenne....</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+					<img src="post7.jpg" alt="">
+					
+				</div>
+              <h2>Miért is nem árt újonnan átnézni az orsónkat?</h2>
+              <p>A fotón látható, hogy még a zsír mennyisége elfogadható lenne, de nem ártott volna egyenletesen eloszlatni.</p>
+            </div>
+          </div>
+
+          <!-- POST 8 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post8.jpg')"></div>
+            <h3>Zsinór kapacitás táblázat tájékoztató adatokkal</h3>
+            <p>A feltekerhető mennyiségek eltérhetnek a megadottól, mert a zsinórok sem méretpontosak és ízlés kérdése, ki mennyire tölti tele a dobját. Jónéhány orsó leírása és pár cikk alapján arra következtettem, hogy a nagyobb orsoknál 2 mm-re a dob pereme alá töltve van a gyári ajánlás....</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+						<img src="post8.jpg" alt="" style="width: 70%; max-width: 500px;">
+				</div>
+				<p>A feltekerhető mennyiségek eltérhetnek a megadottól, mert a zsinórok sem méretpontosak és ízlés kérdése, ki mennyire tölti tele a dobját. Jónéhány orsó leírása és pár cikk alapján arra következtettem, hogy a nagyobb orsoknál 2 mm-re a dob pereme alá töltve van a gyári ajánlás.</p>
+            </div>
+          </div>
+
+          <!-- POST 9 -->
+          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post9.jpg')"></div>
+            <h3>Ismét egy kis fék téma!</h3>
+            <p>Többször találkoztam azzal, hogy a fotón is látható gumi tömítéses dobbal szerelt orsók fékje megváltozik egy dob csere, vagy csak az orsón lévő dob levétele....</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+					<img src="post9.jpg" alt="">
+					<img src="post9_1.jpg" alt="">
+					<img src="post9_2.jpg" alt="">
+				</div>
+              <h2>Ismét egy kis fék téma!</h2>
+              <p>Többször találkoztam azzal, hogy a fotón is látható gumi tömítéses dobbal szerelt orsók fékje megváltozik egy dob csere, vagy csak az orsón lévő dob levétele és visszarakása után. Volt már, aki ilyen orsónál, azzal fordult hozzám, hogy &quot;olyan nyúlós lett a fék&quot;. És volt, aki arra panaszkodott, hogy hiába cserélte teflonra a lamellákat, mégsem lett elég gyors a fék. Ezeknek ugyanaz a jelenség az okozója. A gumigyűrű elöregszik és a fékcsillag maga alá szorítja.  gyűrűt, vagy a fékcsillag külső, a gumival találkozó peremét vékonyan bekenjük zsírral, így a gumi a helyére csúszik. Mondjuk ezt új gyűrűvesetén sem árt megtenni. És ez itt a reklám helye! . 4500,5500 és 10000,12000,14000 méretű dobokhoz eredeti Shimano gyűrűt még tudok adni, 600 Ft/db áron.</p>
+            </div>
+          </div>
+
+          <!-- POST 10 -->
+<!--          <div class="post-card" onclick="openPost(this)">
+            <div class="post-image" style="background-image:url('post10.jpg')"></div>
+            <h3>Cím</h3>
+            <p>Részlet a leírásból...</p>
+            <div class="full-post" style="display:none">
+				<div class="post-gallery">
+					<img src="post10.jpg" alt="">
+					<img src="post10_1.jpg" alt="">
+					<img src="post10_2.jpg" alt="">
+				</div>
+              <h2>Cím a leírásban</h2>
+              <p>Leírás</p>
+            </div>
+          </div>
+-->		
+        </div>
+
+
+      </section>
+
+    </div>
+
+    <div class="bottom-bar">
+      © 2025 Yellow Carp Orsószervíz |
+      <a href="mailto:yellowcarp.reels@gmail.com">yellowcarp.reels@gmail.com</a> |
+      <a href="tel:+36204113760">+36 20 411 3760</a>
+    </div>
+	  </div>
+	</div>
+
+	<div class="modal" id="postModal">
+	  <div class="modal-content">
+		<span class="close" onclick="closePost()">×</span>
+		<div id="modalText"></div>
+	  </div>
+	</div>
+
+<script>
+function openPost(card) {
+  const modal = document.getElementById("postModal");
+
+  document.getElementById("modalText").innerHTML =
+    card.querySelector(".full-post").innerHTML;
+
+  modal.style.display = "block";
+
+  modal.classList.remove("show");
+  void modal.offsetWidth;
+
+  modal.classList.add("show");
+}
+
+
+
+function closePost() {
+  document.getElementById("postModal").style.display = "none";
+}
+
+document.addEventListener("click", function (e) {
+  if (e.target.closest(".post-gallery img")) {
+    document.getElementById("viewerImg").src = e.target.src;
+    document.getElementById("imageViewer").classList.add("active");
+  }
+});
+
+function closeImage() {
+  document.getElementById("imageViewer").classList.remove("active");
+}
+
+window.addEventListener("click", function(event) {
+  const modal = document.getElementById("postModal");
+  if (event.target === modal) {
+    closePost();
+  }
+
+  const imageViewer = document.getElementById("imageViewer");
+  if (event.target === imageViewer) {
+    closeImage();
+  }
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const hamburger = document.getElementById("hamburger");
+  const sidebar = document.getElementById("sidebar");
+
+  hamburger.addEventListener("click", () => {
+    sidebar.classList.toggle("active");
+  });
+});
+
+function openPost(card) {
+  const modal = document.getElementById("postModal");
+
+  document.getElementById("modalText").innerHTML =
+    card.querySelector(".full-post").innerHTML;
+
+  modal.style.display = "block";
+  document.body.style.overflow = "hidden";
+
+  modal.classList.remove("show");
+  void modal.offsetWidth;
+  modal.classList.add("show");
+}
+
+function closePost() {
+  document.getElementById("postModal").style.display = "none";
+  document.body.style.overflow = "auto";
+}
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const currentPage = window.location.pathname.split("/").pop();
+  const menuLinks = document.querySelectorAll(".sidebar a");
+
+  menuLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage || 
+        (currentPage === "" && linkPage === "index.html")) {
+      link.classList.add("active");
+    }
+  });
+});
+</script>
+
+
+<div class="image-viewer" id="imageViewer">
+  <span class="close" onclick="closeImage()">✖</span>
+  <img id="viewerImg" src="">
+</div>
+
+</body>
+</html>

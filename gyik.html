@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Yellow Carp - GY.I.K</title>
+  <link rel="icon" type="image/png" href="/logo.png?v=2">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f5e72d, #3cb4e5);
+      color: #000;
+    }
+	h1, h2, .sidebar h2 {
+	  font-family: 'Montserrat', sans-serif;
+	}
+
+    .page-container {
+      display: flex;
+      flex: 1;
+    }
+	
+    .corner-logo {
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      width: 250px;
+      height: auto;
+      border: none;
+      box-shadow: none;
+      object-fit: contain;
+      background: none;
+    }
+
+	.sidebar ul li a.active {
+	  background-color: #3cb4e5;
+	  color: #fff;
+	  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	  transform: scale(1.05);
+	}
+	
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 180px;
+      height: 100vh;
+      color: #f1c40f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      z-index: 1000;
+      background-image: url('sav.png');
+      background-repeat: repeat;
+      background-size: 800px;
+      background-position: center;
+    }
+
+    .sidebar h2 {
+      text-align: center;
+      font-size: 1.4em;
+      background-color: #1b2838;
+      padding: 10px 15px;
+      border-radius: 10px;
+      margin: 15px 0 25px 0;
+      color: #f1c40f;
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+    .sidebar ul li {
+      width: 100%;
+      text-align: left;
+    }
+
+    .sidebar ul li a {
+      color: #f1c40f;
+      text-decoration: none;
+      font-weight: bold;
+      display: block;
+      padding: 15px 20px;
+      transition: all 0.3s ease;
+      border-radius: 6px;
+      margin: 5px 10px;
+    }
+
+    .sidebar ul li a:hover {
+      background-color: #3cb4e5;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    /* --- Hamburger --- */
+    .hamburger {
+      display: none;
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      width: 30px;
+      height: 25px;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      z-index: 2000;
+    }
+
+    .hamburger span {
+      height: 4px;
+      background-color: #f1c40f;
+      border-radius: 2px;
+    }
+
+    .main-area {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-left: 180px;
+      background: linear-gradient(to right, #f5e72d, #3cb4e5);
+    }
+
+    .main-content {
+      flex-grow: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-top: 10px; /* ez tolja lejjebb a tartalmat a logó alatt */
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      color: #000;
+      margin-bottom: 130px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	  text-align: center;
+	  margin-top: 50px;
+    }
+
+    /* --- GYIK --- */
+    .faq-section {
+      background-color: rgba(255,255,255,0.3);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .faq-item {
+      background-color: rgba(255,255,255,0.7);
+      border-radius: 8px;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .faq-item h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.1em;
+      color: #000;
+    }
+
+    .faq-item p {
+      margin: 0;
+      font-size: 1em;
+      line-height: 1.5;
+    }
+
+    .bottom-bar {
+      background-color: #1b1b1b;
+      color: #f1f1f1;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      width: auto;
+      margin-top: auto;
+    }
+
+    .bottom-bar a {
+      color: #f1c40f;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    .bottom-bar a:hover {
+      text-decoration: underline;
+    }
+
+    }
+  </style>
+    <link rel="stylesheet" href="mobileindex.css">
+</head>
+
+<body>
+
+<div class="hamburger" id="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div class="page-container">
+  <div class="sidebar" id="sidebar">
+    <h2>Yellow Carp</h2>
+    <ul>
+      <li><a href="index.html">Főoldal</a></li>
+      <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+      <li><a href="alkatresztablazat.html">Alkatrészek</a></li>
+      <li><a href="kapcsolat.html">Kapcsolat</a></li>
+      <li><a href="gyik.html">GY.I.K</a></li>
+    </ul>
+  </div>
+
+  <div class="main-area">
+    <div class="main-content">
+      <header>
+        <h1>Gyakran Ismételt Kérdések</h1>
+      </header>
+		<img src="NagyLogo.png" alt="Yellow Carp logó" class="corner-logo">
+      <section class="faq-section">
+
+        <div class="faq-item">
+          <h3>Mennyi idő egy orsó szervizelése?</h3>
+          <p>Előjegyzés alapján hozott orsók esetén, általában 3–7 munkanap, a leadott orsók mennyiségétől, állapotátóltól függően. Nem előjegyzésre érkező darabokat egyedi elkészülési idővel tudom vállalni.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Milyen időközönként kell szervizeltetni az orsómat?</h3>
+          <p>Pontos instrukciót nehéz adni ezzel kapcsolatban, de egy kis támpontot tudok adni. Rendszeresen használt pergető orsókat és versenyhorgászok sokat használt orsóit, legalább évente. Saját bevallás szerint is sokat horgászó pecások orsóit max kettő évente. A nagyon ritkán horgászók pedig, hiába használunk, modern, magas minőségű kenőanyagokat, azért maximum három évente végeztessenek teljes karbantartást.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Alkatrészt mennyi időn belül tudsz biztosítani?</h3>
+          <p>Az egyre növekvő mennyiségű, saját készleten lévő alkatrészek 1-5 munkanapon belül feladásra kerülnek. Azok, amiket a Shimanotól kell rendelnem, a tapasztalatom szerint akár 12 hónapos beérkezésig is húzódhatnak.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Utánvétellel is küldesz alkatrészt?</h3>
+          <p>Utánvéttel kizárólag szervizelt orsók visszaküldését vállalom.
+		  <br>Sajnos többször előfordult már, hogy nem vettek át utánvéttel küldött alkatrészt, ezért azoknál, csak előre utalással vállalom a csomagküldést.</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Csak teljes szervizt lehet kérni?</h3>
+          <p>Nem. Alkatrészcsere, tuning, vagy egyedi javítás is kérhető.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Postán is küldhetem az orsót?</h3>
+          <p>Igen, futárszolgálattal is fogadok és küldök vissza orsókat.
+			<br>Általában, a feladó által küldött csomagolásban küldöm vissza, de amennyiben szükségesnek látom, akkor gondosabb csomagolás mellett.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Mit kell tuningolni az orsómon?</h3>
+          <p>A tuningolás lehetőség, nem kötelező. Megfelelő karbantartás mellett, tuning nélkül is sokáig hű társunk maradhat egy orsó, viszont a fejlesztések mindegyike jobbá, tartósabbá tehetik. Természetesen, típusonként és a felhasználás módja alapján, akár fontossági sorrendben is tudok a lehetőségekre ajánlatot tenni.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Vállalsz garanciát a szervizelésre?</h3>
+          <p>Természetesen, az általam beépített alkatrészekre és a munkámra is garanciát vállalok.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Más márkát is vállalsz?</h3>
+          <p>Elsősorban Shimano orsókkal foglalkozom, de más márkák is szóba jöhetnek előzetes egyeztetés után.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Mennyibe kerül egy teljes karbantartás?</h3>
+          <p>Az alap ár, 6500-19000 Ft között van, ami az orsó típusától és a szükséges munkától függ. Megközelítőleges árajánlatot egyeztetés után tudok adni. Majd ezt az orsó bontása, után pontosítom. Sajnos gyakori, díj növelő tényező, az előző szervizek során használt, nem megfelelő minőségű (pl. grafitos), vagy az erősen túlzott mennyiségű zsír eltávolítása és a rászáradt dippel, etetőanyaggal vastagon borított orsó.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Fotókkal dokumentálod a szervizelés folyamatát?</h3>
+          <p>Kizárólag az ügyfél külön kérésére, felár mellett tudom ezt vállalni, mert megemeli a szervizelési időt.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Milyen kenőanyagokat használsz?</h3>
+          <p>Sajnos a Shimano zsírok utánpótlása akadozik, vagy némely típusnál meg is szűnt. Így egy szakemberrel felvéve a kapcsolatot, kipróbáltam néhány típust, amik kissé a kedvemre lettek szabva. Ezekből vásárolni is lehet nálam.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Meg lehet várni egy orsó elkészülését?</h3>
+          <p>Egy teljes karbantartást egyértelműen nem. Néhány apróbb feladat elvégzése megvárható, de sajnos ügyfél váróm még nincs kialakítva, ezért szabad programos a várakozás.</p>
+        </div>
+		<div class="faq-item">
+          <h3>Nyitvatartási idő van?</h3>
+          <p>Nincs. Mivel főállásomban műszakozom, ezért eléggé váltakozóan vagyok elérhető. Szerencsére az ügyfeleimmel meg szoktuk találni a kapcsolattartás kölcsönösen megfelelő módját és idejét.</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="bottom-bar">
+      © 2025 Yellow Carp Orsószervíz |
+      <a href="mailto:yellowcarp.reels@gmail.com">yellowcarp.reels@gmail.com</a> |
+      <a href="tel:+36204113760">+36 20 411 3760</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const sidebar = document.getElementById('sidebar');
+
+  hamburger.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const currentPage = window.location.pathname.split("/").pop();
+  const menuLinks = document.querySelectorAll(".sidebar a");
+
+  menuLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage || 
+        (currentPage === "" && linkPage === "index.html")) {
+      link.classList.add("active");
+    }
+  });
+});
+</script>
+
+</body>
+</html>

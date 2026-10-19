@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yellow Carp alkatrészlista">
+  <title>Yellow Carp - Alkatrész-táblázat</title>
+  <link rel="icon" type="image/png" href="logo.png?v=2">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <link rel="stylesheet" href="mobilealkatreszek.css">
+  <style>
+    :root { --yellow:#f1c40f; --blue:#3cb4e5; --dark:#1b2838; --line:#d7dee3; }
+    * { box-sizing:border-box; }
+    html, body { min-height:100vh; margin:0; }
+    body { font-family:'Poppins', sans-serif; color:#000; background:linear-gradient(to right, #f5e72d, #3cb4e5); }
+    h1, h2, .sidebar h2 { font-family:'Montserrat', sans-serif; }
+    .page-container { display:flex; min-height:100vh; }
+    .hamburger { display:none; }
+    .sidebar { position:fixed; inset:0 auto 0 0; z-index:1000; display:flex; flex-direction:column; align-items:center; width:180px; padding-top:10px; color:var(--yellow); background-image:url('sav.png'); background-repeat:repeat; background-size:800px; background-position:center; transition:transform .3s ease; }
+    .sidebar h2 { margin:15px 0 25px; padding:10px 15px; color:var(--yellow); font-size:1.4em; text-align:center; background:var(--dark); border-radius:10px; box-shadow:0 0 8px rgba(0,0,0,.3); }
+    .sidebar ul { width:100%; margin:0; padding:0; list-style:none; }
+    .sidebar a { display:block; margin:5px 10px; padding:15px 20px; color:var(--yellow); font-weight:bold; text-decoration:none; border-radius:6px; transition:all .3s ease; }
+    .sidebar a:hover, .sidebar a.active { color:#fff; background:var(--blue); box-shadow:0 0 10px rgba(0,0,0,.3); transform:scale(1.05); }
+    .main-area { display:flex; flex:1; flex-direction:column; min-width:0; margin-left:180px; }
+    .main-content { display:flex; flex:1; flex-direction:column; align-items:center; padding:40px; position:relative; margin-top:10px; }
+    .corner-logo { position:absolute; top:0; right:10px; width:250px; height:auto; object-fit:contain; }
+    .page-title { width:100%; margin:50px 0 130px; font-size:1.8em; text-align:center; text-shadow:1px 1px 2px rgba(0,0,0,.2); }
+    .table-panel { width:100%; margin:0; padding:30px; background:rgba(255,255,255,.3); border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,.1); }
+    .table-top { position:relative; min-height:36px; margin:0 0 14px; }
+    .table-heading { margin:0; font-size:1.25rem; text-align:center; }
+    .table-search { position:absolute; top:0; right:0; width:220px; padding:8px 12px; color:#173d4e; font:400 .84rem 'Poppins', sans-serif; background:rgba(255,255,255,.82); border:1px solid rgba(60,180,229,.7); border-radius:18px; outline:none; }
+    .table-search:focus { border-color:#278bb2; box-shadow:0 0 0 3px rgba(60,180,229,.22); }
+    .table-wrap { width:100%; padding:15px 20px; background:rgba(255,255,255,.7); border:0; border-radius:8px; box-shadow:0 0 5px rgba(0,0,0,.1); }
+    table { width:100%; table-layout:fixed; border-collapse:collapse; font-size:.92rem; }
+    th, td { padding:11px 14px; overflow-wrap:anywhere; text-align:left; vertical-align:top; white-space:normal; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+    th { color:#173d4e; font-weight:700; background:rgba(60,180,229,.2); }
+    th:nth-child(1), td:nth-child(1) { width:5%; }
+    th:nth-child(2), td:nth-child(2), th:nth-child(3), td:nth-child(3) { width:12%; }
+    th:nth-child(4), td:nth-child(4), th:nth-child(5), td:nth-child(5) { width:17%; }
+    th:nth-child(6), td:nth-child(6) { width:37%; }
+    tr:nth-child(even) td { background:rgba(255,255,255,.32); }
+    tr:hover td { background:rgba(245,231,45,.25); }
+    th:last-child, td:last-child { border-right:0; }
+    tr:last-child td { border-bottom:0; }
+    .empty { padding:42px 24px; color:#4e5d69; text-align:center; }
+    .empty b { display:block; margin-bottom:8px; color:#17212b; font-size:1.05rem; }
+    .bottom-bar { padding:10px; margin-top:auto; color:#f1f1f1; font-size:.9em; text-align:center; background:#1b1b1b; }
+    .bottom-bar a { margin:0 10px; color:var(--yellow); font-weight:bold; text-decoration:none; }
+    .bottom-bar a:hover { text-decoration:underline; }
+    @media (max-width:768px) { .hamburger { display:flex; position:fixed; top:15px; left:15px; z-index:2000; width:30px; height:25px; flex-direction:column; justify-content:space-between; cursor:pointer; } .hamburger span { height:4px; background:var(--yellow); border-radius:2px; } .sidebar { transform:translateX(-100%); } .sidebar.active { transform:translateX(0); } .main-area { margin-left:0; } .main-content { padding:20px; margin-top:0; } .corner-logo { top:62px; right:15px; width:110px; } .page-title { margin:30px 0 100px; font-size:1.5em; } .table-panel { padding:14px; } .table-top { min-height:74px; } .table-search { top:38px; width:100%; } .table-wrap { padding:10px; } table { font-size:.78rem; } th, td { padding:8px 6px; } }
+  </style>
+</head>
+<body>
+  <div class="hamburger" id="hamburger" aria-label="Menü megnyitása" role="button" tabindex="0"><span></span><span></span><span></span></div>
+  <div class="page-container">
+    <nav class="sidebar" id="sidebar" aria-label="Főmenü">
+      <h2>Yellow Carp</h2>
+      <ul>
+        <li><a href="index.html">Főoldal</a></li>
+        <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+        <li><a href="alkatresztablazat.html" class="active">Alkatrészek</a></li>
+        <li><a href="kapcsolat.html">Kapcsolat</a></li>
+        <li><a href="gyik.html">GY.I.K</a></li>
+      </ul>
+    </nav>
+    <div class="main-area">
+      <main class="main-content">
+        <img src="NagyLogo.png" alt="Yellow Carp logó" class="corner-logo">
+        <h1 class="page-title">Alkatrész-táblázat</h1>
+        <section class="table-panel" aria-labelledby="table-heading">
+          <div class="table-top">
+            <p class="table-heading" id="table-heading" style="color:red;font-size:16px;font-style:italic;">Az oldalon található végleges lista még feltöltés alatt van, addig a táblázatban egy ideiglenes listát találhattok. <br>Az aktuális táblázatban lehetnek hibák és történhetnek apró változtatások.</p>
+            <input class="table-search" id="tableSearch" type="search" placeholder="Keresés a táblázatban" aria-label="Keresés az alkatrészlistában">
+          </div>
+          <div class="table-wrap" id="tableWrap" aria-live="polite"><div class="empty">Betöltés…</div></div>
+        </section>
+      </main>
+      <footer class="bottom-bar">© 2025 Yellow Carp Orsószervíz | <a href="mailto:yellowcarp.reels@gmail.com">yellowcarp.reels@gmail.com</a> | <a href="tel:+36204113760">+36 20 411 3760</a></footer>
+    </div>
+  </div>
+  <script>
+
+    const EXCEL_FILE = './alkatreszek.xlsx';
+    let workbook;
+    let allRows = [];
+    const wrap = document.getElementById('tableWrap');
+    const search = document.getElementById('tableSearch');
+    const esc = value => String(value ?? '').replace(/[&<>'"]/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }[char]));
+
+    function displayCell(value, header) {
+      const text = String(value ?? '');
+
+      return String(header ?? '').trim().toLocaleLowerCase('hu-HU') === 'régi cikkszám' && /^\d+$/.test(text)
+        ? `RD${text}`
+        : text;
+    }
+
+    function renderRows(rows) {
+      if (rows.length < 2) { wrap.innerHTML = '<div class="empty"><b>Nincs találat</b>A keresésre nem érkezett találat.</div>'; return; }
+      const columns = Math.max(...rows.map(row => row.length));
+      const header = rows[0];
+      const body = rows.slice(1);
+      wrap.innerHTML = '<table><thead><tr>' + Array.from({ length:columns }, (_, index) => `<th>${esc(header[index])}</th>`).join('') + '</tr></thead><tbody>' + body.map(row => '<tr>' + Array.from({ length:columns }, (_, index) => `<td>${esc(displayCell(row[index], header[index]))}</td>`).join('') + '</tr>').join('') + '</tbody></table>';
+    }
+
+    function displayWorkbook(book) {
+      workbook = book;
+      if (!book.SheetNames.length) throw new Error('A fájl nem tartalmaz munkalapot.');
+
+      allRows = XLSX.utils.sheet_to_json(book.Sheets[book.SheetNames[0]], { header:1, defval:'', raw:false });
+      if (!allRows.length) throw new Error('Az első munkalap üres.');
+      renderRows(allRows);
+    }
+
+    async function loadWorkbook() {
+      try {
+        const response = await fetch(EXCEL_FILE, { cache:'no-store' });
+        if (!response.ok) throw new Error(`A fájl nem található (${response.status}).`);
+        displayWorkbook(XLSX.read(await response.arrayBuffer(), { type:'array' }));
+      } catch (error) {
+        wrap.innerHTML = `<div class="empty"><b>Nincs megjeleníthető alkatrészlista</b>Az <code>alkatreszek.xlsx</code> fájlt az oldal mellé kell feltölteni, és a webhelyet kiszolgáló szerveren kell megnyitni.<br><small>${esc(error.message)}</small></div>`;
+      }
+    }
+
+    document.getElementById('hamburger').addEventListener('click', () => document.getElementById('sidebar').classList.toggle('active'));
+    search.addEventListener('input', () => {
+      const query = search.value.trim().toLocaleLowerCase('hu-HU');
+      if (!allRows.length) return;
+      const filteredRows = !query ? allRows : [allRows[0], ...allRows.slice(1).filter(row => row.some(cell => String(cell ?? '').toLocaleLowerCase('hu-HU').includes(query)))];
+      renderRows(filteredRows);
+    });
+    loadWorkbook();
+  </script>
+</body>
+</html>
