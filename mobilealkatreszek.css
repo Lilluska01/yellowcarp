@@ -65,8 +65,8 @@
   .corner-logo {
     position: absolute;
     top: 120px;
-    right: 20px;
-    width: 125px;
+    right: 15px;
+    width: 110px;
   }
 
   /* KERESŐ */
@@ -107,9 +107,8 @@
   }
 
   .corner-logo {
-    width: 100px;
-    top: 100px;
-    right: 15px;
+    width: 90px;
+    top: 110px;
   }
 
   .part-card img {
